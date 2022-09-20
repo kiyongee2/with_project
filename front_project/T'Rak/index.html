@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta charset="UTF-8">
+    <title>T'Rak 채팅</title>
+    <link rel="stylesheet" href="./css/base_shotgun.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="#"></script>
+    <style>
+
+      </style>
+<script src="./js/sitemap.js"></script>
+<link rel="stylesheet" href="./css/sitemap.css">
+</head>
+<body>
+<div id="siteMap">
+    <ul>
+        <li>May<br><a href="./매너_may.html">이용 시 매너 사항 준수</a><br><a href="./위치_may.html">위치 활성화 & 알림,소식</a><br><a href="./번호및이메일_may.html">전화번호, 이메일주소</a></li>
+        <li>Yoon<br><a href="./base_yoon.html.html">내 정보 입력하기</a></li>
+        <li>LuLu<br><a href="./base.html.html">나의 관심사</a></li>
+        <li>shotgun<br><a href="./index.html">메인 페이지 - 1</a></li>
+        <li>kyouka<br><a href="./join_kyouka.html">연락처 차단 및 이용약관</a></li>
+        <li>wong<br><a href="./join-.html.html">회원가입 페이지</a><br><a href="./pc-login-popup.html">PC로그인 팝업</a></li>
+        <li>AK<br><a href="./join.html">로그인 페이지</a></li>
+        <li>Woo<br><a href="./main_chat.html">메인 페이지 - 2(채팅)</a></li>
+    </ul>
+</div>
+    <div id="mainContainer">
+        <header>
+            <div class="logo">
+                <h1><a href="#">T'Rak</a></h1>
+            </div>
+            <div class="matAlarm">
+                <div>
+                  <span>정선필님과 정채연님의 매칭이 성사되었습니다.</span>
+                  <span>한지수님과 김지민님의 매칭이 성사되었습니다.</span>
+                </div>
+            </div>
+            <div class="login">
+                <ul>
+                    <li><a href="#"><div class="mypage">마이페이지</div></a></li>
+                    <li><a href="#"><div class="nickname">UserID</div></a></li>
+                    <li><a href="#"><div class="mailBtn">쪽지</div></a></li>
+                    <li><a href="#"><div class="setting">설정</div></a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="col">
+                    <div class="col1">
+                        <p>사진첩</p>
+                    </div>                
+                    <div class="col2">                
+                    <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/man1.PNG" alt="img1"><figcaption>하루 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/man2.PNG" alt="L"><figcaption>L <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/man3.PNG" alt="잇찌"><figcaption>잇찌 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/man4.PNG" alt="김한님"><figcaption>김한님 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/man5.PNG" alt="지혁"><figcaption>지혁 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/wm1.PNG" alt="솜"><figcaption>솜 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/wm2.PNG" alt="고앵"><figcaption>고앵 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/wm3.PNG" alt="예은"><figcaption>예은 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/wm4.PNG" alt="빛나는 눈빛"><figcaption>빛나는 눈빛 <span> 23<br>7 kilometer(s) away</span></figcaption></div>
+                                <div class="swiper-slide"><img src="./img/wm5.PNG" alt="니냐노노"><figcaption>니냐노노 <span> 23<br>7 kilometer(s) away</span></figcaption></div>                    
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            </div>
+                    </div>                
+                    <div class="col3">                
+                        <p>내가 받은 하트 / 서로 매치</p> 
+                    </div>                
+                 </div>              
+              </div>
+        </section>
+
+        <footer>
+            <ul class="foot_list clear">
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">위치서비스이용약관</a></li>
+                <li><a href="">청소년보호정책</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          direction: "vertical",
+          slidesPerView: 1,
+          spaceBetween: 30,
+          mousewheel: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>

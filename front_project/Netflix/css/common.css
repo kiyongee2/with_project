@@ -1,0 +1,101 @@
+body, header, section, footer, select, h1, h2, h3, p, button, div, img, ul, li, input, 
+#container, #logo, #topMenu, #contents, .lang_select, .get_email{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{width: 100%;}
+#container{}
+h1, h2, h3, p, li div, .cardText{word-break: keep-all;}
+h1{color: #fff;}
+h2, h3{color: #fff; font-weight: normal;}
+p{color: #ccc;}
+ul{list-style: none;}
+div{}
+li{}
+button{background: rgb(216, 0, 0); color: #fff; border-radius: 2px; border: none;}
+img{}
+.lang_select{border-radius: 2px;}
+.clear::after{clear: both;}
+
+/* header */
+header{z-index: 100; width: 100%; height: 80px; position: absolute; background: rgba(0, 0, 0, 0);}
+#logo{float: left; margin: 20px 60px;}
+#logo h1{width: 200px; height: 50px; background: url("../img/Logonetflix.png") no-repeat; background-size: contain;}
+#topMenu{float: right; margin: 20px 60px;}
+#topMenu #selectWrap{position: relative; width: 200px;}
+#topMenu .global_icon{position: absolute; left: -4px; top: 7px;}
+#topMenu .arrow{position: absolute; left: 65px; top: 7px;}
+#topMenu .lang_select{position: absolute; right: 90px; width: 100px; height: 35px; margin-right: 20px; padding-left: 30px; appearance: none; background: none; color: #fff; border: 1px solid #fff; z-index: 100;}
+#topMenu .lang_select option{background: #ccc;}
+#topMenu button{position: absolute; right: 0; width: 75px; height: 35px; font-size: 1em;}
+
+/* section */
+section{background: #000;}
+#contents{}
+#contents > div{border-bottom: 8px solid #333;}
+.backgroundB{position: absolute; height: 600px; width: 100%; background: rgba(0, 0, 0, 0.4);}
+.firstBg{position: absolute; height: 600px; width: 100%; background: url("../img/section_1_BG.jpg"); background-size: 100%;}
+.firstCard{position: relative; height: 600px; text-align: center; padding-top: 150px;}
+.firstCard h1{font-size: 3em; margin: 1rem auto; width: 600px;}
+.firstCard h2{margin: 1rem auto; width: 700px;}
+.firstCard h3{margin: 1rem auto; width: 800px;}
+.firstCard form{}
+.get_email{height: 70px; width: 700px; margin: 0 auto; position: relative;}
+.get_email .email_text{width: 500px; height: 70px; font-size: 1rem; padding-left: 10px; position: absolute; left: 0;}
+.get_email button{width: 200px; height: 70px; font-size: 1.5rem; position: absolute; right: 0;}
+.get_email button:hover{background: rgb(255, 0, 0); cursor: pointer;}
+.get_email button:focus{box-sizing: content-box; background: rgb(187, 0, 0); outline: 3px solid rgb(121, 0, 0);}
+.card{height: 500px; position: relative;}
+.card img{width: 480px; position: absolute;}
+.cardText{display: block; max-width: 500px; width: 50%; position: absolute; top: 80px;}
+.card h1{font-size: 3em; margin: 20px 0;}
+.secondCard{}
+.secondCard .cardText{left: calc(((100% - 500px) / 2) - 100% / 5);}
+.secondCard h1{}
+.secondCard h2{}
+.secondCard img{left: calc(((100% - 500px) / 2) + 100% / 5);}
+.thirdCard{}
+.thirdCard .cardText{left: calc(((100% - 500px) / 2) + 100% / 5);}
+.thirdCard h1{}
+.thirdCard h2{}
+.thirdCard img{left: calc(((100% - 500px) / 2) - 100% / 5);}
+.fourthCard{}
+.fourthCard .cardText{left: calc(((100% - 500px) / 2) - 100% / 5);}
+.fourthCard h1{}
+.fourthCard h2{}
+.fourthCard img{left: calc(((100% - 500px) / 2) + 100% / 5);}
+.fifthCard{}
+.fifthCard .cardText{left: calc(((100% - 500px) / 2) + 100% / 5);}
+.fifthCard h1{}
+.fifthCard h2{}
+.fifthCard img{left: calc(((100% - 500px) / 2) - 100% / 5);}
+.lastCard{padding-bottom: 120px;}
+.lastCard h1{text-align: center; font-size: 3em; margin: 80px 0 40px;}
+.lastCard ul{}
+.lastCard ul li{margin: 10px 0;}
+.lastCard ul li h2{width: 800px; height: 70px; margin: 0 auto; background: #333 url(../img/button_off.png) no-repeat right; background-position-x: 750px; padding: 20px 0 20px 30px; font-weight: normal; cursor: pointer;}
+.lastCard ul li h2.on{width: 800px; height: 70px; margin: 0 auto; background: #333 url(../img/button_on.png) no-repeat right; background-position-x: 746px; padding: 20px 0 20px 30px; font-weight: normal;}
+.lastCard ul li div{display: none; width: 800px; margin: 0 auto; background: #333; padding: 20px 0 20px 30px; color: #fff; font-size: 1.5rem; font-weight: normal; padding: 20px 30px;}
+.lastCard h3{margin: 10px; margin-top: 30px; text-align: center;}
+
+/* footer */
+footer{background: #000;}
+.footer_box{width: 1000px; margin: 0 auto; padding: 100px 0 50px;}
+footer p{}
+footer #selectWrap{position: relative; height: 50px; width: 120px; margin: 50px 0;}
+footer #selectWrap .global_icon{position: absolute; top: 15px; left: 10px;}
+footer #selectWrap .arrow{position: absolute; top: 15px; right: 5px;}
+footer .lang_select{position: absolute; height: 50px; width: 120px; appearance: none; background: none; font-size: 1rem; color: #999; padding-left: 40px; z-index: 100;}
+footer .lang_select option{background: #000;}
+
+@media all and (max-width: 1450px) and (min-width: 951px){
+    .firstCard h1{width: 700px;}
+    .firstCard h2{width: 600px;}
+    .card img{max-width: 480px; width : 40%; position: absolute;}
+    .cardText{width: 40%;}
+    .lastCard ul li h2{max-width: 800px; width: 80%; background-position-x: 95%;}
+    .lastCard ul li h2.on{max-width: 800px; width: 80%; background-position-x: 95.5%;}
+    .lastCard ul li div{max-width: 800px; width: 80%;}
+}
+
+@media all and (max-width: 950px){
+
+}

@@ -1,0 +1,120 @@
+*{margin: 0;padding: 0;}
+.main_wrap{width: 100%;}
+body{font-family: "나눔고딕";}
+.main_nav1{ background: #fcdf33;}
+.main_nav1 ul,
+.main_nav2 ul
+{
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 90%;
+}
+.main_nav1 ul li a,
+.main_nav2 ul li a
+{color: rgba(0,0,0,.6);text-decoration: none;}
+.main_upper{
+    box-sizing: border-box;
+    height: 37px;
+    display: flex;
+    line-height: 26px;
+    justify-content: space-between;
+}
+.main_line{border-bottom: 1px solid rgba(0, 0, 0, 0.1);width: 100%;}
+.main_upper li{margin: 0 5px;}
+.main_lower{
+    box-sizing: border-box;
+    display: flex;
+    height: 62px;
+    line-height: 52px;
+    position: relative;
+}
+.main_lower li {margin-right: 5px;}
+.main_lower li span{font-size: 2em;}
+.main_content .main_banner{
+    height: 162px;
+    line-height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_lower input{
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    right:0 ;
+    width: 212px;
+    height: 34px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    border: 1px solid #fcdf33 ;
+}
+.main_bold{color: #000;}
+.main_nav2{position: relative;}
+.main_nav2 ul{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    border-bottom: #000;
+}
+.main_nav2 ul li{
+    height: 62px;
+    width: 130px;
+    line-height:62px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* a */
+
+
+
+  .product_wrap{width: 1000px; margin: 20px auto; display: flex; }
+  .card{width: 500px;}
+  #myimage{width: 500px;height: 500px;}
+  .product_litleMenu li{ margin: 5px;}
+  .card-text{
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #aaa;
+  }
+  .card-text span{ position: absolute;left: 0;top: 0; color: #f0a007; font-size: 30px;}
+  .card-text p{position: absolute; right: 0; top: 0%;float: right;}
+
+  .card-text b{color: #a6a6a6;text-decoration: line-through;margin-right: 10px;}
+  .card-text strong{font-size: 25px;}
+  .order_option_wrap{ margin: 10px auto;width: 450px; height: 150px; border-radius: 3px;}
+  .order_space{ height: 200px;}
+  .order_disc{ border-bottom: 1px solid #aaa;height: 45px;line-height: 45px;width: 400px; margin-left:-7px ; font-size: 14px;color: #555;}
+  .order_option{width: 400px; height: 40px;line-height: 40px; padding-left: 10px;}
+
+  .order_controll{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    text-align: center;
+    align-items: center;
+    display: none;
+  }
+  .order_controll_inner{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .order_num{ width: 20px; text-align: center;border: none;}
+  .order_controll button{ height: 30px;width: 30px;}
+  .order_controll input{background: #fff;text-align: center; border: none;}
+  .order_check{width: 400px;margin-left: -10px;margin-top: 10px;text-align: left;}
+ 
+  .order_check_inner span{float: right;color: #f0a007;}

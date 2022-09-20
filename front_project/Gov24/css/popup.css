@@ -1,0 +1,487 @@
+@charset "UTF-8";
+
+.pop-wrap.pop-mca .pop-inner .pop-guide-box {
+	font-family: 'Malgun Gothic', sans-serif;
+	font-weight: bold;
+}
+
+.pop-wrap.pop-mca .pop-inner .txt {
+	font-family: 'Malgun Gothic', sans-serif;
+	font-weight: bold;
+}
+
+.pop-wrap .pop-tit {
+	font-family: 'Malgun Gothic', sans-serif;
+	font-weight: bold;
+}
+
+.pop-wrap .pop-inner .tbl-list.type2 {
+	border: 1px solid #d3d3d3;
+}
+
+.pop-wrap .pop-inner .tbl-list.type2 thead th {
+	font-family: 'Malgun Gothic', sans-serif;
+	font-weight: bold;
+}
+
+.no-canvas .pop-wrap .pop-tit {
+	font-family: 'Dotum', sans-serif;
+	font-weight: bold;
+}
+
+.no-canvas .pop-wrap .pop-inner .tbl-list.type2 {
+	border: 1px solid #d3d3d3;
+}
+
+.no-canvas .pop-wrap .pop-inner .tbl-list.type2 thead th {
+	font-family: 'Dotum', sans-serif;
+	font-weight: bold;
+}
+
+.pop-wrap {
+	background: #fff;
+}
+
+.pop-wrap.lay-pop {
+	width: 70%;
+	display: none;
+}
+
+.pop-wrap.lay-pop .pop-tit .close {
+	display: block;
+	position: absolute;
+	top: 17px;
+	right: 12px;
+	width: 16px;
+	height: 16px;
+	background: url(/2017/img/common/pop_close_m.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+.hidden, legend {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+/* 20180619 신규작업 */
+/* popWrap */
+.popWrap {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+	overflow: hidden;
+	z-index: 100000;
+}
+
+.popContents {
+	max-width: 436px;
+	height: auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.popWrap .popBody {
+	box-sizing: border-box;
+}
+
+.popWrap .popBody img {
+	width: 100%;
+}
+
+.popWrap .btnPopClose {
+	display: block;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 27px;
+	height: 27px;
+}
+
+.popWrap .btnPopClose img {
+	width: 100%;
+}
+
+.popContents.errorType .error-btn {
+	display: block;
+	margin: 20px auto 0;
+	width: 100px;
+	height: 24px;
+	line-height: 23px;
+	text-align: center;
+	border-radius: 12px;
+	background: #d3eafd;
+	color: #333;
+	font-weight: bold;
+}
+/* errorType */
+.popContents.errorType {
+	position: relative;
+}
+
+.popContents.errorType .popTitle {
+	display: block;
+	padding: 8px 45px 10px 10px;
+	background: #f0f0f0;
+	border-radius: 6px 6px 0 0;
+	color: #222;
+	font-size: 18px;
+	font-weight: 700;
+	vertical-align: middle;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.popContents.errorType .popTitle em {
+	color: #777;
+	font-style: normal;
+}
+
+.popContents.errorType .popTitle strong {
+	color: #ef5907;
+}
+
+.popContents.errorType .popBody {
+	padding: 20px;
+	border-radius: 0 0 6px 6px; background-color : #fff;
+	text-align: center;
+	background-color: #fff;
+}
+
+.popContents.errorType .popBody .pororo {
+	display: inline-block;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.popContents.errorType .error-message-area {
+	margin: -10px auto 0;
+	padding: 20px;
+	background: url(/2017/img/event/error_notice/error_contents_bg.png) repeat;
+	color: #fff;
+	text-align: center;
+}
+
+.popContents.errorType .error-message {
+	font-size: 15px;
+}
+
+.popContents.errorType .error-range {
+	display: inline-block;
+	/* max-width: 280px; */ /* 정기점검 팝업 시 제거   */
+	margin: 20px auto 0;
+}
+
+.popContents.errorType .error-range dl {
+	display: block;
+	position: relative;
+}
+
+.popContents.errorType .error-range dl+dl {
+	margin-top: 5px;
+}
+
+.popContents.errorType .error-range dt {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 12px;
+	border-radius: 12px;
+	background: #d3eafd;
+	color: #333333;
+	font-size: 12px;
+}
+
+.popContents.errorType .error-range dd {
+	display: block;
+	padding-left: 55px;
+	font-size: 13px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.popContents.errorType .error-range dd .num {
+	letter-spacing: 0;
+}
+
+.popContents.errorType .error-guide {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.popContents.errorType .error-guide p {
+	display: inline-block;
+	padding-left: 17px;
+	background: url(/2017/img/event/error_notice/blt-check.png) no-repeat 0	4px;
+}
+
+.popContents.errorType .callcenter {
+	display: inline-block;
+	min-height: 32px;
+	margin: 20px 5px 0 5px;
+	padding: 6px 22px 7px;
+	border-radius: 16px;
+	background: rgba(0, 0, 0, 0.2);
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+
+.popContents.errorType .callcenter .callnumber {
+	background: url(../../../2017/img/event/error_notice/icon_tel.png) no-repeat 0 50%;
+	margin: 0 8px;
+	padding-left: 17px;
+}
+
+.popContents .add-message-area {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	color: #555;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.popContents .add-message-area .addTxt {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+/* btnOneday */
+.popWrap .btnOneday {
+	margin-top: 5px;
+	color: #fff;
+}
+
+.popWrap.errorNotice .popTitle {
+	min-height: 45px;
+	padding: 5px 45px 5px 10px;
+	background: #f0f0f0;
+	color: #222;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.popWrap.errorNotice .popBody {
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	text-align: center;
+}
+
+.popWrap.errorNotice .msgArea {
+	background: url(/2017/img/event/error_notice/error_contents_bg.png);
+	margin: -10px auto 0 auto;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.popWrap.errorNotice .btnPopClose {
+	top: 6px;
+	right: 6px;
+	width: 33px;
+	height: 33px;
+}
+
+@media all and (max-width: 640px) {
+	.popWrap {
+		overflow: auto;
+		z-index: 100001;
+	}
+	.popContents {
+		padding: 20px;
+	}
+	.popContents.errorType .popBody {
+		padding: 15px;
+	}
+	.popContents.errorType .error-message {
+		font-size: 14px;
+		/* word-break: keep-all; */  /* 정기점검 팝업 시 제거   */
+	}
+	.popContents.errorType .error-message br {
+		display: none;
+	}
+	.popContents.errorType .error-message-area {
+		padding: 15px;
+	}
+	.popContents .add-message-area {
+		padding: 10px;
+		font-size: 18px;
+	}
+	.popContents .add-message-area .addTxt br {
+		display: none;
+	}
+	.popWrap .btnPopClose {
+		top: 22px;
+		right: 22px;
+		width: 19px;
+		height: 19px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.popContents.errorType .error-message-area.mobioleImgNone {
+		margin-top: 0;
+	}
+	.pcView {
+		display: none !important;
+	}
+}
+
+.layerPopWrap .inputText {
+	height: 20px;
+	border: 1px solid #ccc;
+	color: #777;
+	line-height: 20px;
+}
+
+
+
+/* 메인화면 생활정보 팝업 종수표시 */
+.living_pop {position: relative;}
+.living_pop .pop_num {position: absolute; top: 400px; left: 234px; color: #fff; transform: rotate(30deg); font-size: 14px;}
+
+@media only screen and (max-width: 640px){
+	.living_pop .pop_num {position: absolute; top: 62%; left: 47.5%; color: #fff; transform: rotate(30deg); font-size: 10px;}
+}
+
+/*대국민 만족도조사 팝업 2019*/
+.bottomWrap {position:relative; width:100%; padding:0 20px; height:32px; line-height:32px; font-size:12px; font-weight:bold; background-color:#00a3c8; border-top:1px solid #66c8de; box-sizing:border-box;}
+.bottomWrap input[type="checkbox"] + label {position:relative; padding-left:5px; vertical-align:top}
+.bottomWrap .btnCheck {padding:0 30px; color:#fff}
+.btnCheck .btn_oneday {display:block; position:absolute; bottom:0; left:30px; background:url(/2019/lib/image/main/btn_onedayclose.png) left center no-repeat}
+.btnCheck .btn_oneday > span {padding-left:14px; color:#fff}
+.btnClose .btn_close {display:block; position:absolute; bottom:0; right:30px; background:url(/2019/lib/image/main/btn_close.png) left center no-repeat}
+.btnClose .btn_close > span {padding-left:14px; vertical-align:1px; color:#fff}
+.btnClose .btn_close:hover,	.btnClose .btn_close:active,	.btnClose .btn_close:visited {color:#fff}
+/* .pop_mobileView {display:none !important} */
+@media only screen and (max-width:639px) {
+	/* .pop_pcView {display:none !important}
+	.pop_mobileView {display:block !important} */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    z-index: 99999;
+}
+
+.top_btnClose .btn_close {display:block; width:31px; height:31px; position:absolute; right:56px; top:64px}
+.bottomWrap02 {padding-left:40px; height:40px; line-height:38px; background-color:#ffc500}
+.bottomWrap02 .btnClose02 .btn {display:block; background:url(/2019/lib/image/main/btn_close02.png) left center no-repeat}
+.bottomWrap02 .btnClose02 .btn > span {padding-left:14px; vertical-align:1px; color:#323433; font-weight:bold}
+.bottomWrap02 .btnClose02 .btn:hover, .btnClose02 .btn:active, .btnClose02 .btn:visited {color:#323433}
+.pop_mobileView .bottomWrap02 {padding:0 7%}
+.bottomWrap02:after {content:''; display:block; clear:both}
+.bottomWrap02 .btnCheck02 {float:left}
+.bottomWrap02 .btnClose02 {float:right}
+.bottomWrap02 .btnCheck02 input[type="checkbox"] {position:absolute; left:-999999px}
+.bottomWrap02 .btnCheck02 input[type="checkbox"] + label {position:relative; padding-left:20px; color:#323433; vertical-align:middle; font-weight:bold}
+.bottomWrap02 .btnCheck02 input[type="checkbox"] + label:before {content:''; display:block; position:absolute; top:3px; left:0; width:14px; height:14px; background:url(/2019/lib/image/main/btnChk_off.png) no-repeat}
+.bottomWrap02 .btnCheck02 input[type="checkbox"]:checked + label:before {background:url(/2019/lib/image/main/btnChk_on.png) no-repeat}
+
+.popWrap.svcEvent .bottomWrap {position:relative; width:100%; padding: 0 20px; height:45px; line-height:43px; font-size:14px; font-weight:bold; background-color:#d9e2e4; border-top:1px solid #bfcacd; box-sizing:border-box;}
+.popWrap.svcEvent .bottomWrap input[type="checkbox"] + label {position:relative; padding-left:5px; vertical-align:top}
+.popWrap.svcEvent .btnCheck .btn_oneday {display:block; color:#555; background:url(/2019/lib/image/main/btn_onedayclose02.png) left center no-repeat}
+.popWrap.svcEvent .btnCheck .btn_oneday > span {padding-left:18px; color:#555}
+.popWrap.svcEvent .btnClose .btn_close {display:block; position:absolute; bottom:0; right:20px; background:url(/2019/lib/image/main/btn_close03.png) left center no-repeat}
+.popWrap.svcEvent .btnClose .btn_close > span {padding-left:17px; vertical-align:1px; color:#555}
+
+@media only screen and (max-width:805px) {
+	.popWrap.svcEvent .bottomWrap {font-size:12px;}
+}
+
+/* s 20200320 정부24 지문 재등록 안내 */
+.popWrap.cont-jimun .popContents {max-width:none}
+.popWrap.cont-jimun .bottomWrap03{position:relative;width:100%;padding:12px 35px;height:50px;background:#aeccec;border-top:1px solid #d1e2f4;box-sizing:border-box}
+.popWrap.cont-jimun .bottomWrap03:after {content:'';display:block;clear:both}
+.popWrap.cont-jimun .bottomWrap03 .btn_oneday {display:block;float:left;max-width:175px}
+.popWrap.cont-jimun .bottomWrap03 .btn_close {display:block;float:right;max-width:70px}
+.popWrap.cont-jimun .bottomWrap03 > a > img {width:100%}
+.popWrap.cont-jimun .popContents .image-box{width:600px}
+
+@media only screen and (min-width:806px) {
+	.popWrap.cont-jimun .pop_mobileView{width:600px}
+	/* .popWrap.pop-renewal .pop_mobileView.popContents .pop-close {box-shadow:none !important;border-bottom:2px solid #fff !important;border-top:0 !important;} */
+
+	.popWrap.pop-renewal .pop_mobileView{display:block;position:absolute;top:0;right:0;bottom:0;left:0;padding:40px 0 0 0;z-index:2}
+	.popWrap.pop-renewal .pop_mobileView.popContents {position: relative;width: 640px; /* 수정 */margin: 20px auto 0;} /* 0416(2) 수정 */
+	.popWrap.pop-renewal .pop_mobileView .pop-body{position:relative;z-index:2}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-body{overflow-y:visible !important;width:960px}
+
+	.popWrap.pop-renewal .popContents.pop_mobileView{padding:0}
+	.popWrap.pop-renewal .popContents.pop_mobileView .inr img{height:178px !important}
+	.popWrap.pop-renewal .pop_mobileView .pop-body:after{display:block;clear:both;content:''}
+	.popWrap.pop-renewal .pop_mobileView .pop-body .inr{float:left;width:320px}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-close{margin:0 !important;box-shadow:none !important;}
+	.popWrap.pop-renewal .popContents .pop-footer{padding:12px 30px}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-close{position:relative !important;top:auto;right:auto;margin:0;border-top:2px solid #fff;z-index:3}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-body {height:auto !important;}
+}
+
+@media only screen and (max-width:805px) {
+	.popWrap.cont-jimun .bottomWrap03{padding:12px 30px}
+}
+@media only screen and (max-width:540px) {
+	.popWrap.cont-jimun .bottomWrap03{padding:9px 20px;height:40px}
+	.popWrap.cont-jimun .bottomWrap03 .btn_oneday {display:block;float:left;max-width:115px}
+	.popWrap.cont-jimun .bottomWrap03 .btn_close {display:block;float:right;max-width:40px}
+}
+
+.hide,caption,legend,.ico em{overflow:hidden;position:absolute;clip:rect(1px, 1px, 1px, 1px);text-indent:-9999px;white-space:nowrap}
+/* e 20200320 정부24 지문 재등록 안내 */
+
+/* s 20200326 3개 팝업 */
+.popWrap.pop-renewal:after{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.6;filter:alpha(opacity=60);z-index:-1;content:''}
+.popWrap.pop-renewal .popContents{max-width:none}
+.popWrap.pop-renewal .popContents img{width:100%;height:auto}
+
+.popWrap.pop-renewal .popContents.pop_pcView .pop-body {position: relative;width: 320px; /* 수정 */margin: 0 auto; /* 수정 */z-index: 2;} /* 0417 수정 */
+.popWrap.pop-renewal .popContents.pop_pcView .pop-body .pop-cont{font-size:0}
+.popWrap.pop-renewal .popContents.pop_pcView .pop-body .pop-cont .inr{float:left;width:400px;width:320px;position:relative}
+.popWrap.pop-renewal .popContents.pop_pcView .pop-body .pop-cont .inr .btn-go{display:block;position:absolute;bottom:8.5%;width:75.5%;height:10.7%;left:12.1%}
+.popWrap.pop-renewal .popContents.pop_pcView .pop-body .pop-cont:after{content:'';display:block;clear:both}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-body{overflow-y:auto;height:100%;box-sizing:border-box}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-body .inr > a {display:block}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-close{position:absolute;top:0;right:0;width:100%;z-index:2;background:#d2e5f9;height:50px;line-height:48px;box-shadow:1px 3px 10px rgba(194,211,229,.75);margin-left:20px}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-close a{display:block}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-close .btn_oneday{float:left;margin-left:20px;width:175px}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-close .btn_close{float:right;margin-right:20px;width:65px}
+.popWrap.pop-renewal .popContents.pop_mobileView .pop-close:after{content:'';display:block;clear:both}
+.popWrap.pop-renewal .popContents .pop-footer{position:relative;width:100%;padding:12px 25px;height:52px;background:#aeccec;border-top:2px solid #fff;box-sizing:border-box}
+.popWrap.pop-renewal .popContents .pop-footer:after{content:'';display:block;clear:both}
+.popWrap.pop-renewal .popContents .pop-footer .btn_oneday{display:block;float:left;max-width:175px}
+.popWrap.pop-renewal .popContents .pop-footer .btn_close{display:block;float:right;max-width:70px}
+
+@media only screen and (max-width:805px){
+	.overlay{left:-9999px}
+	.popWrap.pop-renewal{display:block;overflow:hidden}
+	.popContents{height:100%;padding:0}
+	.popWrap.pop-renewal .popContents.pop_pcView{overflow:auto;margin-top:50px}
+	.popWrap.pop-renewal .popContents.pop_pcView .pop-body {width: 100%;}
+	.popWrap.pop-renewal .popContents.pop_pcView .pop-body .pop-cont .inr{float:none;width:100%}
+	.popWrap.pop-renewal .pop_mobileView{display:block;position:absolute;top:0;right:0;bottom:0;left:0;padding:50px 0 0 0;z-index:2}  /* 0401 수정 */
+	.popWrap.pop-renewal .popContents .pop-footer{position:fixed;top:0;right:0;left:0;width:auto;padding:12px 30px;border:0}
+}
+@media only screen and (max-width:540px){
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-footer{padding:12px 20px;height:40px}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-footer .btn_oneday{display:block;float:left;max-width:115px}
+	.popWrap.pop-renewal .popContents.pop_mobileView .pop-footer .btn_close{display:block;float:right;max-width:40px}
+}
+/* e 20200326 3개 팝업 */

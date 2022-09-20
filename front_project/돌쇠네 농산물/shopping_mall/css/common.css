@@ -1,0 +1,260 @@
+*{margin: 0;padding: 0;}
+.main_wrap{width: 100%;}
+.clear::after{content: ""; display: block; clear: both;}
+body{font-family: "나눔고딕";}
+nav ul{list-style: none; margin: 0; padding: 0;}
+nav ul a{text-decoration: none; color: #212529;}
+
+/* ================ header start ================ */
+header{position: fixed; width: 100%; height: 150px; background-color: #fff; border-bottom: 1px solid #ccc; z-index: 5000;}
+/* header a{color: #212529; text-decoration: none;} */
+header .header_logo{display: block; width: 60%; height: 100%; margin: 0 0 0 20%; float: left;}
+header .header_logo img{width: 100%; height: 100%; object-fit: contain;}
+header .nav_top{padding: 15px 15px 0 0;}
+header .nav_top i{float: right; margin: 5px; font-size: 2em;}
+header .nav_bottom{position: fixed; bottom: 0; left: 0; width: 100%; height: 60px; margin: 0; background-color: #FFEC3F; display: none; border-top: 1px solid #ccc;}
+header .nav_bottom ul{width: 100%; height: 100%; margin: 0; padding: 0;}
+header .nav_bottom ul li{float: left; width: 20%; height: 100%; margin: 0; padding: 0;}
+header .nav_bottom i{width: 100%; height: 100%; font-size: 26px; text-align: center; line-height: 60px; }
+header .nav_bottom .basket{width: 100%; height: 100%; font-size: 26px; text-align: center; line-height: 60px; position: relative;}
+header .nav_bottom .basket>a>div{width: 28px; height: 28px; border: 2px solid #212529; border-radius: 5px; position: relative; top: calc(50% - 18px); left: calc(50% - 18px); background-color: #fff;}
+header .nav_bottom .basket>a>div>div{width: 28px; height: 28px; border: 2px solid #212529; border-radius: 5px; position: relative; top: 3px; left: -7px; background-color: #fff; overflow: hidden;}
+header .nav_bottom .basket>a>div>div>img{width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;}
+/* ================ header end ================ */
+.contents{padding-top: 150px !important; padding-bottom: 60px !important;}
+/* header가 상단에 position:fixed되어서 contents에 padding이나 margin으로 header만큼 여백을 만들어줘야함 */
+/* 안그러면 contents 내용 일부가 header만큼 가려서 안보임 */
+
+/* ================ .contents_nav start ================ */
+.contents_nav{width: 100%; height: auto; padding: 8px 0; border-bottom: 1px solid #ccc;}
+.contents_nav ul{width: 750px; height: auto; margin: 0 auto;}
+.contents_nav ul li{width: 16.666%; text-align: center; float: left;}
+.contents_nav ul li a{display: block; padding: 8px 5px;}
+/* ================ .contents_nav end ================ */
+
+/* ================ index main start ================ */
+.contents .main_slide_banner{margin: 20px 0;}
+.contents .main_slide_banner .carousel-item>a img:nth-of-type(2){display: none !important;}
+.contents .kakaoplus_banner{margin: 20px 0; padding: 10px; background-color: #FFEC3F; text-align: center;}
+.contents .kakaoplus_banner a{padding: 5px; display: block; text-decoration: none; color: #212529; }
+.contents .kakaoplus_banner h5{display: inline;}
+.contents .caption{text-align: center; margin: 10px;}
+.contents .caption_sub{display: none; color: #999; font-size: 0.5em;}
+.contents .app_sale{display: none !important;}
+
+/*메인 제품목록 CSS */
+.caption{height: 130px;text-align: center;}
+.new{background: url(../images/new.png)no-repeat;background-size: contain;width: 40px;height:40px;display: inline-block;margin-left: 5px;}
+.farmer{background: url(../images/farmer.png)no-repeat;background-size: contain;width: 50px;height:50px;display: inline-block;margin-bottom: -5px;}
+.caption h3{line-height: 130px;}
+.product_wrap{width: 1280px;margin: 0 auto;}
+.flex{display: flex;justify-content: space-evenly; flex-wrap: nowrap;}
+.product_wrap h5{font-weight: bold;}
+.price{font-size: 20px;}
+.dc{ font-size: 14px;color: #888;text-decoration: line-through;}
+.dcNum{ color: #f0a007;font-weight: bold;font-size: 20px; margin-left: 10px;}
+.product_wrap button{ width: 50px; height: 50px; border-radius: 50%; border: none; opacity: 0; transition: all .5s; background-color: rgba(255,255,255,.8);}
+/* .product{position: relative;} */
+.product_img{width: 300px;height: 300px;position: relative;}
+.wish{position: absolute;top: 55%;left: 90px;}
+.add{position: absolute;top: 55%;right: 90px;}
+/* 메인 제품목록 CSS */
+
+/* ================ index main end ================ */
+
+/* 테스트용 지워도 됨 */
+/* .contents>div{
+    margin: 20px; padding: 70px; 
+    background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} */
+/* 테스트용 지워도 됨 */
+
+/* ======== 반응형 웹 header 부분 ======== */
+@media all and (max-width:900px) {
+    header .header_logo{width: auto; max-width: calc(100% - 100px); margin-left: 0;}
+    header .header_logo img{width: 100%; height: 100%; object-fit: contain;}
+    .contents_nav ul{width: 100%}
+    .contents .main_slide_banner .carousel-inner .carousel-item a img{min-height: calc(100vw / 3); object-fit: cover;}
+    .flex{display:flex;flex-flow: row wrap;}
+    .product_wrap{width: 800px;margin: 0 auto;}
+    .product{position: relative;flex: auto;}
+    .product_img{width: 300px;height: 300px;}
+}
+@media all and (max-width:600px) {
+    header .header_logo{width: auto; max-width: calc(100% - 80px); margin-left: 0;}
+    header .header_logo img{width: 100%; height: 100%; object-fit: contain;}
+    header .nav_top .fa-user, header .nav_top .fa-magnifying-glass{display: none;}
+    header .nav_bottom{display: block;}
+    .contents_nav ul li{width: 33.333%;}
+    .contents .kakaoplus_banner h5:nth-of-type(1){display: none;}
+    .contents .main_slide_banner .carousel-item>a img:nth-of-type(1){display: none !important;}
+    .contents .main_slide_banner .carousel-item>a img:nth-of-type(2){display: block !important;}
+    .contents .app_sale{display: block !important;}
+}
+/* ======== 반응형 웹 header 부분 ======== */
+ 
+/* ======== 회원가입 작업중 =========*/
+/* ======== 회원가입 작업중 =========*/
+.join{
+    width: 1050px;
+    /* width: 100%; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 150px 50px 0;
+}
+
+.join form{margin: 40px auto 0;}
+.join form fieldset p:nth-of-type(1){
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #000;
+        font-size: 15px;
+        color: #f00;
+}
+.join .join_required::before{
+    content: "*";
+    display: inline-block;
+    position: absolute;
+    left: 5px; top: 3px;
+    width: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #f00;
+}
+.join_list{padding: 10px 0; border-bottom: 1px solid #ccc;}
+.join_list li{padding: 8px 0; list-style: none;}
+.join_list li .join_lbl{
+    position: relative;
+    float: left;
+    width: 150px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    line-height: 42px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -2px;
+}
+.join_list li .join_content{float: right; width: 770px;}
+.join_list li .join_content *{vertical-align: top;}
+.join_list li .join_content .join_space{display: inline-block; padding-top: 10px;}
+.join_list li .join_content.radio_area{
+    height: 45px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.join_list li .join_content.checkbox_area{
+    height: 45px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.join_list label{vertical-align: middle;}
+.join_list li .join_common{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    /* width: 158px; */
+    /* height: 35px; */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: url(../img/ico_selectArr.png) no-repeat 100% 50%;
+    width: 160px;
+    height: 45px;
+    background-position: 100% 50%; border: 1px solid #ccc;
+}
+.join_list li .join_common select{
+    appearance: none;
+    height: 30px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 200px; height: 43px;
+    display: inline-block;
+    padding: 0 10px;
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+.join_list li textarea{appearance: none; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; font-size: 15px; width: 100%; height: 245px;}
+.join_btn{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0;
+}
+.join_btn a{
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    background: #384d75;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.join fieldset{border: none;}
+.join legend{font-size: 0; width: 0; height: 0; line-height: 0; text-indent: -9999px; overflow: hidden; visibility: hidden; position: absolute; top: 0; left: 0;}
+.join input, select, textarea{box-sizing: border-box; font-size: 15px; letter-spacing: -1px;}
+.join input[type=checkbox].css-checkbox{overflow: hidden; position: absolute; left: -1000px; width: 1px; height: 1px;}
+.join_list input[type=checkbox].css-checkbox + label{display: inline-block; height: 20px; padding-left: 30px; line-height: 20px; background: url(../img/bg_checkbox.png) no-repeat 0 0; background-size: 20px; cursor: pointer; vertical-align: middle; font-size: 15px;}
+.join_list input[type=checkbox].css-checkbox:checked + label{background-position: 0 -20px;}
+.join_list input[type=radio].css-radio{overflow: hidden; position: absolute; left: -1000px; width: 1px; height: 1px;}
+.join_list input[type=radio].css-radio + label{display: inline-block; padding-left: 20px; margin-right: 20px; background: url(../img/bg_radio.png) no-repeat 0 0; cursor: pointer; vertical-align: middle; font-size: 15px;}
+.join_list input[type=radio].css-radio:checked + label{background-position: 0 -50px;}
+.join_list li input{appearance: none; box-sizing: border-box; display: inline-block; height: 45px; padding: 0 10px; border: 1px solid #ccc; background-color: #fff; line-height: normal; font-size: 15px;}
+.join_list li:nth-of-type(1) input{width: 160px;}
+.join_list li:nth-of-type(1) input{width: 160px;}
+.join_list li input[placeholder]{width: 100%;}
+
+
+
+.join_list .clear::after{content: ""; display: block; clear: both;}
+
+@media screen and (max-width:600px)  {
+    .join{width: 100%; padding: 150px 20px 60px;}
+    .join form{margin: 20px auto;}
+    .join_list li{position: relative; padding: 10px 0; border-bottom: 1px solid #ccc;}
+    .join_list li:last-child{border-bottom: none; padding-bottom: 10px;}
+    .join_list li .join_lbl{float: none; width: auto; line-height: 30px;}
+    .join_list li .join_content{float: none; width: auto;}
+    .join_list li .join_content *{vertical-align: middle;}
+    .join_list .join_content input[type=text],
+    .join_list .join_content input[type=tel],
+    .join_list .join_content input[type=password]{
+        border: none;
+        width: 100%;
+    }
+    .join_list li:nth-of-type(1) .join_content{padding: 5px 0 0; font-size: 0;}
+    .join_list li:nth-of-type(1) .join_content input[type=text],
+    .join_list li:nth-of-type(1) .join_content input[type=password]{
+        border: 1px solid #ccc;
+        width: 45%;
+        font-size: 14px;
+    }
+    .join_list li .join_content .join_space{width: 10%; text-align: center; font-size: 14px;}
+
+    .join_list li:nth-of-type(6) .join_content{padding-left: 20px; height: 40px; padding-top: 10px;}
+    .join_list li:nth-of-type(7) .join_content{padding-left: 20px; height: 40px; padding-top: 10px;}
+
+    .join_list li .join_common{
+        width: 100%;
+        height: 45px;
+        margin-top: 10px;
+    }
+    .join_list li .join_common select{
+        width: 100%;
+        height: 39px;
+    }
+
+    .join_list li textarea{height: 130px;}
+
+    .join_btn{padding: 20px 0;}
+    .join_btn a{
+        width: 100%;
+    }
+
+}
+
+/* ======== 회원가입 작업중 =========*/
+/* ======== 회원가입 작업중 =========*/

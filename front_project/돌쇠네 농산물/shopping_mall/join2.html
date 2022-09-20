@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/common2.css">
+</head>
+<body>
+    <div class = "main">
+        <div class = "main_wrap">
+            <header>
+                <nav class = "main_nav1">
+                    <div class = "main_line">
+                        <ul class = "main_upper">
+                            <li><a href="">NAVER</a></li>
+                            <li><a href="">로그인</a></li>
+                        </ul>
+                    </div>
+                        <ul class = "main_lower">
+                            <li><a href=""><span>로고</span></a></li>
+                            <li><a href="">산지에서 식탁까지 안전하게! | </a></li>
+                            <li><a href=""> 스토어 찜</a></li>
+                            <form action="">
+                                <input type="text" placeholder="검색어를 입력해보세요">
+                            </form>
+                        </ul>
+                </nav>
+            </header>
+            
+        </div>
+
+		<div class="join">
+			<form action="#"method="post">
+				<fieldset>
+					<legend>상담문의 입력 양식</legend>
+					<p class="join_required">필수입력</p>
+					<ul class="join_list">
+						<li class="clear">
+                            <label for="email" class="join_lbl join_required">이메일</label>
+                            <div class="join_content">
+                                <input type="text" id="email" title="이메일 주소" />
+                                <span class="join_space">@</span>
+                                <input type="text" title="이메일 제공업체 입력" />										
+                                <div class="join_common">
+                                    <select title="이메일 제공업체 목록">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                        <option value="">hanmail.net</option>
+                                    </select>
+                                </div>										
+                            </div>
+						</li>
+						<li class="clear">
+							<label for="name" class="join_lbl join_required">작성자명</label>
+							<div class="join_content">
+								<input type="text" id="name" placeholder="이름을 입력해주세요"/>
+							</div>
+						</li>
+						<li class="clear">
+							<label for="pw1" class="join_lbl join_required">비밀번호</label>
+							<div class="join_content">
+								<input type="password" id="pw1" placeholder="비밀번호를 입력해주세요"/>
+							</div>
+						</li>
+						<li class="clear">
+							<label for="pw2" class="join_lbl join_required">비밀번호 확인</label>
+							<div class="join_content">
+								<input type="password" id="pw2" placeholder="비밀번호를 다시 한번 입력해주세요"/>
+							</div>
+						</li>
+						<li class="clear">
+							<label for="phone" class="join_lbl join_required">연락처</label>
+							<div class="join_content">
+								<input type="tel" id="phone" placeholder="휴대폰”-”없이 숫자만 입력하세요"/>
+							</div>
+						</li>
+						<li class="clear">
+							<span class="join_lbl">성별</span>
+							<div class="join_content radio_area">
+								<input type="radio" class="css-radio" id="male" name="gender"><label for="male">남</label>
+								<input type="radio" class="css-radio" id="female" name="gender"><label for="female">여</label>
+							</div>
+						</li>
+						<li class="clear">
+                            <span class="join_lbl">개인정보 활용동의</span>
+							<div class="join_content checkbox_area">
+								<input type="checkbox" class="css-checkbox" id="agree" name="agree"><label for="agree">동의함</label>
+							</div>
+						</li>
+						<li class="clear">
+							<label for="content" class="join_lbl">문의내용</label>
+							<div class="join_content">
+								<textarea id="content" placeholder="간단한 상담 요청 사항을 남겨주시면 보다 상세한 상담이 가능합니다.전화 상담 희망시 기재 부탁드립니다."></textarea>
+                            </div>
+						</li>
+					</ul>
+					<p class="join_btn"><a href="javascript:;">등록</a></p>	
+				</fieldset>
+			</form>
+			
+		</div>
+    </div>
+</body>
+</html>

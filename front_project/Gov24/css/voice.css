@@ -1,0 +1,27 @@
+.header-search-inbox .voice-btn {
+    background: transparent;
+    font-size:3rem;        
+    margin: 4px 0;        
+    height: 33px;
+    cursor: pointer;        
+}
+.header-search-inbox .voice-btn .fa{
+    width: 28px;
+    height: 30px;
+    background-image:url("/2017/img/submain/icon_voice.png") !important;
+    background-repeat:no-repeat;
+    background-position:left center;
+    background-size:80% !important;
+}
+.header-search-inbox .voice-btn .fa:before{display: none;}
+.header-search-inbox .s-box{width:100% !important;}
+.header-search-inbox{position:relative;padding-right:45px;overflow:hidden}
+.header-search-inbox button{position:absolute;z-index:2;}
+.header-search-inbox button#focusout{right:0px;top:0px;}
+.header-search-inbox button.voice-btn{display:none;right:0px;top:0px;}
+media all and (max-width:805px) {
+    .header-search-inbox button.voice-btn{display:block}
+    .header-search-inbox button#focusout{right:35px;}
+    .header-search-inbox{padding-right:60px}
+    
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+html{height: 100%;}
+*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif;}
+#mainContainer{margin: 0; padding: 0; width: 100%; height: 100%;}
+.clear{clear: both;}
+
+/* header 영역 */
+header{width: 100%; height: 80px; background: #FD6A80;}
+.logo{float: left; width: 20%; height: 100%; box-sizing: border-box; background: url(../img/logo.png) no-repeat center;} 
+.logo a{ font-size: 0px;}
+.matAlarm {height: 100%; width: 40%; overflow: hidden; position: relative; float: left;}
+.matAlarm div {display: block; width: 200%; height: 100%; line-height: 80px; position: absolute; 
+    overflow: hidden; animation: matAlarm 7s linear infinite;}
+.matAlarm span {float: left; width: 50%; color: white}
+@keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
+.login{width: 35%; height: 100%; float: right; overflow: hidden; color:white; font-size: 0px;}
+.login ul {float:right}
+.login ul a{text-decoration: none;}
+.login .mypage{background: url("../img/white\ circle.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .nickname{overflow: hidden; color:white; font-size: 16px; text-decoration: none;}
+.login .mailBtn{background: url("../img/mail.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .setting{background: url("../img/setting.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
+
+/* section 영역 */
+section{height: 1200px; width: 100%; }
+section, #main{ margin: 0 auto; height: 600px; padding-top: 20px;
+}
+section h2{ margin-left: 20px;}
+table {height:450px;  margin-left:auto; margin-right:auto; }
+table caption{caption-side: top; text-align: center;}
+table.col1, table.col2{ font-size: medium; line-height: 2;}
+table td .col1{font-weight: bold; width: 120px;}
+table td{ border-top:1px solid #444;}
+
+input[type=checkbox]{display: none;}
+input[type=checkbox]+label{
+    display: inline-block; cursor: pointer;
+    width: 16px; height: 15px; 
+    border: 1px solid #d9d9d9 ;
+}
+input[type=checkbox]:checked+label{
+    background: url(../img/checked.png) no-repeat; 
+    width:16px; height:15px; 
+}
+
+
+
+#btn{ margin: 0 auto;  display:block; text-align: center; margin-top: 30px;}
+button{ width: 70px; height: 40px; border-radius: 10px; color: white; background: #AAF885; border: #AAF885;
+    font-family: 'Poppins'; font-size: medium; text-shadow: 1px 1px black;
+    margin-right: 50px;}
+button:nth-last-child(1){background: #FD6A80;}
+button:hover{ cursor: pointer;}
+
+
+/* footer 영역 */
+footer{border-top:1px solid #ddd; width: 100%; margin-top: 100px;}
+footer .foot_list{list-style: none; margin:50px 0px 50px 30px; height: 100px; width: 100%; box-sizing: border-box;}
+footer .foot_list li{float: left; margin-right: 25px; border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li:last-child{border: none;}
+footer .foot_list li a{color: #000; text-decoration: none; margin-right: 25px; font-size: 0.8em; width: 100%;}
+
+
+
+/* 태블릿 기준 */
+@media all and (max-width:1191px) and (min-width:768px) {
+header .matAlarm{display: none;}
+header .login{width: 70%;}
+}
+
+/* 모바일 기준 */
+@media all and (max-width:767px) {
+.logo{float: none; width: 100%; height: 80px;box-sizing: border-box; position: absolute; background: url(../img/logo.png) no-repeat center;}
+.logo a{font-size: 0px;}
+header .login{width: 30%; position: relative;}
+header .matAlarm{display: none;} 
+.login ul li:nth-child(2), .login ul li:nth-child(3), .login ul li:nth-child(4){display: none;}
+
+/* M_footer 영역 */
+footer{border-top:1px solid #ddd; width: 100%;}
+footer .foot_list{list-style: none; margin:50px 20px; /* margin-left: 10px; */ height: 100px; width: 100%; box-sizing: border-box; padding: 0;}
+footer .foot_list li{float: left; margin-right: 10px; border: none;}
+footer .foot_list li{border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li a{margin-right: 10px;}
+
+}

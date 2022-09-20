@@ -1,0 +1,109 @@
+*{margin: 0;padding: 0;}
+.wrap{width: 100%;}
+body{font-family: "나눔고딕";}
+.nav1{ background: #fcdf33;}
+nav ul{
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 1280px;
+}
+ul li a{
+    color: rgba(0,0,0,.6);
+    text-decoration: none;
+}
+.upper{
+    box-sizing: border-box;
+    height: 37px;
+    display: flex;
+    line-height: 26px;
+    justify-content: space-between;
+}
+.line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.upper li{margin: 0 5px;}
+.lower{
+    box-sizing: border-box;
+    display: flex;
+    height: 62px;
+    line-height: 52px;
+    position: relative;
+}
+.lower li {margin-right: 5px;}
+.lower li span{font-size: 2em;}
+.content .banner{
+    height: 162px;
+    line-height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower input{
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    right:0 ;
+    width: 212px;
+    height: 34px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    border: 1px solid #fcdf33 ;
+}
+.nav2{position: relative;}
+.nav2 ul{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+}
+.nav2 ul li{
+    height: 62px;
+    width: 130px;
+    line-height:62px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+.bold{color: #000;}
+
+.caption{height: 130px;text-align: center;}
+.new{background: url(../images/new.png)no-repeat;background-size: contain;width: 40px;height:40px;display: inline-block;margin-left: 5px;}
+.farmer{background: url(../images/farmer.png)no-repeat;background-size: contain;width: 50px;height:50px;display: inline-block;margin-bottom: -5px;}
+.caption h3{line-height: 130px;}
+.product_wrap{width: 1280px;margin: 0 auto;}
+.flex{display: flex;justify-content: space-evenly;}
+.product_wrap h5{font-weight: bold;}
+.price{font-size: 20px;}
+.dc{
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+}
+.dcNum{
+    color: #f0a007;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.product_wrap button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0;
+    transition: all .5s;
+    background-color: rgba(255,255,255,.8);
+}
+.product{position: relative;}
+.product_img{width: 300px;height: 300px;}
+.wish{
+    position: absolute;
+    top: 55%;
+    left: 90px;
+}
+.add{
+    position: absolute;
+    top: 55%;
+    right: 90px;
+}

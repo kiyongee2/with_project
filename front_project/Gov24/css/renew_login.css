@@ -1,0 +1,740 @@
+@charset "utf-8";
+
+/* base */
+.renewLogin h1,
+.renewLogin h2,
+.renewLogin h3,
+.renewLogin h4,
+.renewLogin h5,
+.renewLogin h6 {
+	font-family: 'Malgun Gothic', sans-serif;
+	font-weight: normal;
+}
+[class*='button-type-sky'] {
+	border: 1px solid #3382e9;
+	color: #fff !important;
+	background-color: #3382e9;
+}
+::-webkit-input-placeholder {
+	color: #777 !important;
+}
+::-moz-placeholder {
+	color: #777 !important;
+}
+::placeholder {
+	color: #777 !important;
+}
+#memberLoginPopup{
+	position: fixed !important;
+	max-width: 500px;
+}
+/* 웹접근성 지키되 outline 미표출*/
+#memberLoginPopup:focus{
+ 	outline: none; 
+}
+.pc-show {
+	display: block !important;
+}
+.mo-show {
+	display: none !important;
+}
+.renewLogin {
+	padding: 0 0 170px;
+}
+.renewLogin h3.sub-title {
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: -1.5px;
+}
+.renewLogin .infor-text-box .color02 {
+	color: #e4022c;
+}
+.renewLogin .tab-cont {
+	overflow: hidden;
+	padding: 15px 0 0;
+	text-align: center;
+}
+/* 공인인증서 */
+.scanContents .renewLogin .certificate-wrap {
+	margin: 10px 0 50px;
+}
+.renewLogin .certificate-wrap .inner-wrap {
+	position: relative;
+	padding-top: 146px;
+}
+.renewLogin .certificate-wrap .inner-wrap:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 19px;
+	left: 50%;
+	width: 90px;
+	height: 108px;
+	background: url(/renewLogin/img/ico_spr_login.png) no-repeat -62px 0;
+	transform: translate(-50%, 0);
+}
+.renewLogin .certificate-wrap .inner-wrap.nonMember_wrap:before{background: url(/renewLogin/img/ico_spr_nonMember.png) no-repeat -62px 0;}
+/* .renewLogin .certificate-wrap .inner-wrap > a {
+	display: block;
+	max-width: 420px;
+	margin: auto;
+	padding: 20px 0;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+} */
+/* .renewLogin .certificate-wrap .inner-wrap > a span{
+	font-size: 19px;
+	font-weight: bold;
+} */
+.renewLogin .certificate-regist {
+	position: relative;
+	width: 100%;
+	max-width: 220px;
+	margin: 30px auto 0;
+	padding-left: 72px;
+}
+.renewLogin .certificate-regist:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 59px;
+	height: 59px;
+	border-radius: 50%;
+	background: #3282e9 url(/renewLogin/img/ico_spr_login_service.png) no-repeat;
+	transform: translate(0, -50%);
+}
+/* 디지털원패스 */
+.scanContents .renewLogin .disital-wrap {
+	margin: 10px 0 50px;
+	font-family: inherit;
+}
+.renewLogin .disital-wrap .inner-wrap {
+	position: relative;
+	margin: 0;
+	padding-top: 146px;
+}
+.renewLogin .disital-wrap .inner-wrap:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 19px;
+	left: 50%;
+	width: 90px;
+	height: 74px;
+	background: url(/renewLogin/img/ico_login_digital.png) no-repeat;
+	transform: translate(-50%, 0);
+}
+/* .renewLogin .disital-wrap .inner-wrap > a {
+	display: block;
+	box-sizing: border-box;
+	max-width: 420px;
+	margin: 0 auto;
+	padding: 21px 0;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+} */
+/* login */
+.scanContents .renewLogin .login-box-wrap {
+	max-width: 420px;
+	margin: 35px auto 50px;
+}
+.scanContents .renewLogin .login-box-wrap .login-inbox {
+	padding-right: 0;
+}
+.scanContents .renewLogin .input-inbox {
+	padding: 0 14px;
+	margin-left:90px;
+	border: 1px solid #e3e3e3;
+}
+.scanContents .renewLogin .input-inbox label{
+	position:absolute; top:8px; left:-90px; font-size:18px; font-weight: bold;
+}
+/* s_20200312 : 추가 */
+.scanContents .renewLogin.jimun .input-inbox {
+	padding: 0 14px;
+	width: 420px;
+	margin: 0 auto 20px;
+	box-sizing: border-box;
+	border: 1px solid #e3e3e3;
+}
+/* e_20200312 : 추가 */
+.renewLogin .input-inbox + .input-inbox {
+	margin-top: 10px;
+}
+.renewLogin .input-inbox input {
+	height: 43px;
+}
+.scanContents .renewLogin .login-box-wrap .login-inbox .login-btn {
+	position: relative;
+	width: auto;
+	margin-top: 20px;
+}
+.scanContents .renewLogin .login-box-wrap .login-inbox .login-btn button {
+	height: 80px;
+	font-size: 19px;
+}
+.renewLogin .login-box-wrap .login-other-wrap {
+	margin-top: 28px;
+	margin-left: 0;
+}
+.scanContents .renewLogin .login-box-wrap .login-other-wrap li {
+	float: left;
+	width: auto;
+}
+.scanContents .renewLogin .login-box-wrap .login-other-wrap li a {
+	height: auto;
+	margin-left: 14px;
+	font-size: 13px;
+	line-height: 1.6;
+}
+.renewLogin .login-box-wrap .login-other-wrap .login-other-bx {
+	position: relative;
+}
+.renewLogin .join {
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding-left: 42px;
+}
+.renewLogin .join:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 34px;
+	height: 34px;
+	border: 1px solid #3282e9;
+	border-radius: 50%;
+	background: url(/renewLogin/img/ico_join.png) no-repeat;
+	transform: translate(0, -50%);
+}
+.renewLogin .join a {
+	display: inline-block;
+	position: relative;
+	padding: 0 17px 0 0;
+	color: #3382e9;
+}
+.renewLogin .join a:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	margin-top: -3px;
+	border: 2px solid #3183e7;
+	border-width: 2px 2px 0 0;
+	transform: rotate(45deg);
+}
+.renewLogin .find-unit {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.renewLogin .find-unit li a {
+	display: inline-block;
+	position: relative;
+}
+.renewLogin .find-unit li .find-pw {
+	padding-left: 15px;
+}
+.renewLogin .find-unit li .find-pw:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 1px;
+	height: 12px;
+	background-color: #c2c2c2;
+}
+.renewLogin .btn-join-link:hover {
+	color: #1c91ff;
+}
+.renewLogin .infor-text-box {
+	margin-top: 0;
+	padding: 25px 40px;
+	border-radius: 6px;
+	font-size: 13px;
+	text-align: left;
+	background: #f0f5f9;
+}
+.renewLogin .infor-text-box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.renewLogin .infor-text-box > strong {
+	display: block;
+	position: relative;
+	margin-bottom: 16px;
+	padding-left: 24px;
+	font-size: 18px;
+}
+.renewLogin .infor-text-box > strong:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 4.5px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	background: url(/renewLogin/img/ico_service_notice.png) no-repeat;
+}
+.renewLogin .infor-text-box .color01 {
+	color: #3282e9;
+}
+.renewLogin .infor-text-box .inbox-text {
+	position: relative;
+	width: 100%;
+	padding: 0 15px;
+	color: inherit;
+	font-size: 13px;
+	word-wrap: break-word;
+	word-break: keep-all;
+	line-height: 1.7;
+}
+.renewLogin .infor-text-box p.inbox-text {
+	margin-bottom: 5px;
+}
+.renewLogin .infor-text-box .inbox-text:before {
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 0;
+	z-index: 1;
+	width: 8px;
+	height: 2px;
+}
+.renewLogin .infor-text-box .inbox-text:before {
+	background-color: #343434;
+}
+.renewLogin .infor-text-box .inbox-text + strong {
+	margin-top: 23px;
+}
+.renewLogin .infor-text-box .inbox-text + ul + .inbox-text {
+	margin-top: 15px;
+}
+.renewLogin .infor-text-box ul li {
+	padding-bottom: 3px;
+}
+.renewLogin .infor-text-box.col2 {
+	float: left;
+	position: relative;
+	width: 50%;
+	padding: 0;
+}
+.renewLogin .infor-text-box.col2:last-of-type {
+	width: 46%;
+	margin-left: 4%;
+}
+.renewLogin .infor-text-box em {
+	font-style: normal;
+}
+/* 지문보안인증 */
+.scanContents .renewLogin .dubble-btn {
+	margin: 63px 0 50px;
+}
+.renewLogin .dubble-btn li {
+	position: relative;
+	padding-top: 134px;
+}
+.renewLogin .dubble-btn li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 90px;
+	height: 92px;
+	background: url(/renewLogin/img/ico_fingerprint_01.png) no-repeat;
+	transform: translate(-50%, 0);
+}
+.renewLogin .dubble-btn li:last-child:before {
+	background: url(/renewLogin/img/ico_fingerprint_02.png) no-repeat;
+}
+.renewLogin .login_btn {
+	display:block;
+	max-width: 420px;
+	width:100% !important;
+	margin: 0 auto;
+	height:80px;
+	font-size: 15px;
+	line-height: 1.6;
+	font-weight:normal;
+	text-align:center;
+	box-sizing: border-box; 	/* 20200312 : 추가 */
+}
+.renewLogin .text-wrap{    width: 100%;
+    display: table;
+    height: 100%;}
+.renewLogin .text-wrap span{    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;}
+.renewLogin .text-wrap span em{font-style: normal;}
+.renewLogin .text-wrap span img{height:24px;}
+.renewLogin .login_btn strong{font-size:19px;}
+.renewLogin .dubble-btn li+li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 100%;
+	background-color: #e3e3e3;
+}
+.renewLogin .dubble-btn .dubble-btn-list .text-wrap strong {
+	font-size: 19px;
+}
+.renewLogin .inbox-text .btn-unit {
+	display: inline-block;
+	position: relative;
+	margin-left: 7px;
+	padding: 2px 27px 2px 10px;
+	border: 1px solid #c2c2c2;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 1.5;
+	background: #fff;
+}
+.renewLogin .inbox-text .btn-unit:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	right: 14px;
+	width: 2px;
+	height: 10px;
+	background-color: #777;
+}
+.renewLogin .inbox-text .btn-unit:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	width: 10px;
+	height: 2px;
+	background-color: #777;
+}
+.scanContents .dubble-btn li .login_btn{margin:0 auto;}
+
+/* layer */
+.renewLogin-pop h1,
+.renewLogin-pop h2,
+.renewLogin-pop h3,
+.renewLogin-pop h4,
+.renewLogin-pop h5,
+.renewLogin-pop h6 {
+	font-family: 'Malgun Gothic', sans-serif;
+}
+.btn_bg01 {
+	background: #344c7a;
+}
+.renewLogin-pop {
+	max-width: 480px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 0 2px 5px 0 rgba(34,34,34,.7);
+}
+.renewLogin-pop .pop-tit {
+	display: block;
+	height: auto;
+	padding: 15px 85px 15px 30px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	background: #013763;
+}
+.renewLogin-pop .pop-inner {
+	position: relative;
+}
+.renewLogin-pop .pop-inner .pop-content {
+	padding: 35px 30px 30px;
+}
+.renewLogin-pop .pop-inner .slogan {
+	position: relative;
+	padding: 27px 0 0 77px;
+	color: #333;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: -1.2px;
+	line-height: 22px;
+}
+.renewLogin-pop .pop-inner .slogan.type-2 {
+	width: 56%;
+	margin: auto;
+}
+.renewLogin-pop .pop-inner .slogan:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 3px;
+	width: 62px;
+	height: 72px;
+	background: url(/renewLogin/img/ico_spr_login.png) no-repeat left center;
+}
+.renewLogin-pop .pop-inner .pop-btns {
+	margin-top: 43px;
+	font-size: 0;
+	text-align: center;
+}
+.renewLogin-pop .pop-inner .pop-btns a {
+	display: inline-block;
+	width: 160px;
+	padding: 13px 0;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	color: #555;
+	font-size: 16px;
+}
+.renewLogin-pop .pop-inner .pop-btns span + span {
+	margin-left: 10px;
+}
+.renewLogin-pop .pop-inner .pop-btns .btn_bg01 {
+	color: #fff;
+}
+.renewLogin-pop .pop-inner .pop-btns .btn_bg01 img{width:110px;}
+.renewLogin-pop .pop-inner .list {
+	position: relative;
+	margin-top: 30px;
+	padding: 18px 25px;
+	border-radius: 6px;
+	background: #f0f5f9;
+}
+.renewLogin-pop .pop-inner .list p {
+	padding: 12px 0;
+	color: #e4022c;
+	line-height: 22px;
+}
+.renewLogin-pop .pop-inner .list dt {
+	margin-bottom: 6px;
+	font-size: 17px;
+}
+.renewLogin-pop .pop-inner .list dd {
+	position: relative;
+}
+.renewLogin-pop .pop-inner .list dd .btn-join {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+	padding: 9px 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	background: #3282e9;
+}
+.renewLogin-pop .pop-inner .list dd span {
+	display: block;
+}
+.renewLogin-pop .pop-inner .pop_certi .pop_list .simple_txt{padding-bottom: 20px; background: url(/2017/img/yearend/btn_img_icon.png) no-repeat left 10px bottom;}
+.renewLogin-pop .pop-inner .btn-layer-close {
+	position: absolute;
+	top: 18px;
+	right: 30px;
+	width: 24px;
+	height: 24px;
+	background: url(/renewLogin/img/ico_button_close.png) no-repeat;
+	cursor: pointer;
+}
+.pop-login-nonmember{z-index: 99; width: 100%; box-sizing: border-box;}
+.renewLogin-pop .pop-inner .pop_certi .pop-btns span{display:inline-block; vertical-align: middle;}
+.renewLogin-pop .pop-inner .pop_certi .pop-btns a.btn_type1{padding:25px 0;}
+.renewLogin-pop .pop-inner .pop_certi .color01{color:#275bae;}
+.renewLogin-pop .pop-inner .pop_certi{padding:30px 24px 30px;}
+.renewLogin-pop .pop-inner .pop_certi .pop_list li{position:relative; padding-left:10px;}
+.renewLogin-pop .pop-inner .pop_certi .pop_list li+li{margin-top:4px;}
+.renewLogin-pop .pop-inner .pop_certi .pop_list li:before{content:''; display:inline-block; position:absolute; left:0; top:8px; width:3px; height:3px; background:#000; }
+
+.scanContents .tab-element li h4{display:table-row;}
+
+/* main - 주민등록등본 발급방식 선택 레이어 팝업*/
+.pop_main_layer{position:fixed; top:20%; z-index:999;}
+.pop_main_layer .renewLogin-pop{max-width:600px;}
+.pop_main_layer .renewLogin-pop .pop-inner .pop-btns{display:table; margin:0 auto;}
+.pop_main_layer .renewLogin-pop .pop-inner .pop-btns span{display:inline-table; vertical-align: middle; min-height:60px;}
+.pop_main_layer .renewLogin-pop .pop-inner .pop-btns a{display:table-cell; padding:11px 0; width:240px; font-size:14px; border:0; border-radius: 0; vertical-align:middle; background:#1976d2; color:#fff;}
+.pop_main_layer .renewLogin-pop .pop-inner .pop-btns span+span a{ background:#666;}
+.pop_main_layer .pop_list{margin-top:25px; font-size:14px; color:#333;}
+.pop_main_layer .pop_list li{position:relative; padding-left:14px;}
+.pop_main_layer .pop_list li:before{position:absolute; left:0; top:6px; content:''; display:block; width:4px; height:4px; background:#333;}
+.pop_main_layer .pop_list li+li{margin-top:10px;}
+
+.renewLogin .certificate-wrap.dubble-btn li:before{content: ''; display: block; position: absolute; top: 0px; left: 50%;width: 92px; height: 108px; background: url(/renewLogin/img/ico_spr_login.png) no-repeat -62px 0; }
+.renewLogin .certificate-wrap.dubble-btn li+li:before{background: url(/renewLogin/img/ico_spr_login2.png) no-repeat -61px 0; background-size: cover;}
+#tab1 .renewLogin .disital-wrap .inner-wrap:before{content: ''; display: block; position: absolute; top: 0px; left: 50%;width: 92px; height: 108px; background: url(/renewLogin/img/ico_spr_login.png) no-repeat -62px 0; }
+#tab8 .renewLogin .disital-wrap .inner-wrap:before{content: ''; display: block; position: absolute; top: 0px; left: 50%;width: 92px; height: 108px; background: url(/renewLogin/img/ico_spr_login2.png) no-repeat -61px 0; background-size: cover;}
+
+.other_login_box{position:fixed; z-index:999; width:100%; top:0; height:100%; left:0; }
+.other_login {display: block; float:right; margin-top: -14px; margin-bottom:48px; padding-right:17px; font-size: 13px; background:url(/renewLogin/img/ico_arrow.png) no-repeat right; background-size:7.5px;}
+.other_login_wrap {position: absolute; z-index: 9999; width:100%; bottom:0; left:0; padding:20px;  padding-top:50px; background:#fff; border:1px solid #bbb; box-sizing: border-box;}
+.other_login_wrap span{font-weight: bold; font-size: 16px;}
+.other_login_wrap ul li a{display:block; margin-top:20px; padding:10px; color:#000; background:#eee;}
+.other_login_wrap ul li.active a{padding:10px; color:#fff; background:#1c5a94 url(../img/ico_check_p.png) no-repeat center right 20px; background-size:20px}
+.other_login_wrap ul li+li a{margin-top:10px;}
+.btn_close{position:absolute; top:10px; right:10px; display:inline-block; width:40px; height:40px;}
+.btn_close a{display:inline-block; position:absolute; top:50%; left: 50%; transform:translate(-50%,-50%); width:100%; height:100%;}
+.btn_close a:before{content:''; display:inline-block; position:absolute;top:50%; width:100%; height:2px; background:#000; transform:rotate(135deg) translateX(0%)}
+.btn_close a:after{content:''; display:inline-block; position:absolute;top:50%; left:0; width:100%; height:2px; background:#000; transform:rotate(45deg) translateX(0%)}
+.btn_close a:hover{text-decoration: none;}
+.btn_close .sr-only-text{overflow: hidden; color: transparent; text-indent: 100%; white-space: nowrap;}
+.other_login + .infor-text-box{clear:both;}
+.mo_img{width:110px;}
+
+
+@media all and (max-width: 1279px) {
+	.pop_main_layer{display:none;}
+}
+
+/* mobile */
+@media all and (max-width: 1024px) {
+	.pc-show {
+		display: none !important;
+	}
+	.mo-show {
+		display: block !important;
+	}
+	.renewLogin .certificate-wrap.dubble-btn li{padding-top:146px;}
+	.renewLogin .certificate-wrap.dubble-btn li{width:45%;}
+	.renewLogin .certificate-wrap.dubble-btn li+li{float:right;}
+	.renewLogin .certificate-wrap.dubble-btn li:last-child:after{display:none}
+	.renewLogin .certificate-wrap.dubble-btn li:before{content: ''; display: block; position: absolute; top: 19px; left: 50%;width: 94px; height: 108px; background: url(/renewLogin/img/ico_spr_login.png) no-repeat -62px 0; }
+	.renewLogin .certificate-wrap.dubble-btn li+li:before{background: url(/renewLogin/img/ico_spr_login2.png) no-repeat -61px 0; background-size: cover;}
+	
+	
+}
+@media all and (max-width: 768px) {
+	.renewLogin {
+		padding: 0 15px 100px;
+	}
+	.scanContents .renewLogin h3.sub-title {
+		font-family: 'notokr-medium', sans-serif;
+		margin-top: 0;
+		font-size: 1.25em;
+	}
+	.scanContents .renewLogin .certificate-wrap {
+		margin: 10px 0 42px;
+	}
+	.renewLogin .certificate-wrap .inner-wrap {
+		padding-top: 120px;
+	}
+	.renewLogin .certificate-wrap .inner-wrap:before {
+		width: 68px;
+		height: 80px;
+		background: url(/renewLogin/img/ico_spr_login.png) no-repeat -47px 0;
+		background-size: cover;
+	}
+	.renewLogin .certificate-wrap .inner-wrap.nonMember_wrap:before {
+		background: url(/renewLogin/img/ico_spr_nonMember.png) no-repeat -47px 0;
+		background-size: cover;
+	}
+	/* .renewLogin .certificate-wrap .inner-wrap > a {
+		max-width: 100%;
+		padding: 18px 0;
+		font-size: 15px;
+	} */
+	.renewLogin .login_btn strong{font-size:16px;}
+	
+	.scanContents .renewLogin .login-box-wrap .login-inbox .login-btn button{font-size:16px;}
+	.scanContents .renewLogin .login-box-wrap {
+		max-width: 100%;
+		margin: 0 0 48px 0;
+	}
+	.renewLogin .login-box-wrap .login-inbox .login-btn button {
+		height: 60px;
+		font-size: 15px;
+		background-color: #1c5a94;
+	}
+	.scanContents .renewLogin .login-box-wrap .login-other-wrap li a {
+		margin-left: 20px;
+	}
+	.renewLogin .join {
+		padding-left: 33px;
+	}
+	.renewLogin .join:before {
+		width: 25px;
+		height: 25px;
+		background-size: cover;
+	}
+	.renewLogin .find-unit li .find-pw {
+		padding-left: 20px;
+	}
+	.renewLogin .infor-text-box {
+		padding: 20px;
+	}
+	.renewLogin .infor-text-box.col2 {
+		float: none;
+		width: 100%;
+	}
+	.renewLogin .infor-text-box.col2:last-of-type {
+		width: auto;
+		margin-left: 0;
+	}
+	.renewLogin .infor-text-box.col2 + .infor-text-box.col2 {
+		margin-top: 20px;
+		padding-left: 0;
+	}
+	.renewLogin .infor-text-box > strong {
+		font-size: 13px;
+	}
+	.renewLogin .infor-text-box > strong:before {
+		top: 2px;
+	}
+	.renewLogin .infor-text-box .inbox-text {
+		width: auto;
+		margin-bottom: 12px;
+		padding: 0 0 0 15px;
+		font-size: 12px;
+	}
+	.renewLogin .infor-text-box .inbox-text:last-of-type {
+		margin-bottom: 0;
+	}
+	.renewLogin .infor-text-box ul li {
+		font-size: 12px;
+	}
+	/* .renewLogin .disital-wrap .inner-wrap > a {
+		max-width: 100%;
+		padding: 18px 0;
+		font-size: 15px;
+	} */
+	.renewLogin .certificate-wrap.dubble-btn li{padding-top:120px; width:49%;}
+	.renewLogin .certificate-wrap.dubble-btn .dubble-btn-list .text-wrap strong{font-size:16px;}
+	.renewLogin .certificate-wrap.dubble-btn li:last-child:after{content:none;}
+	.renewLogin .certificate-wrap.dubble-btn li:before{content: ''; display: block; position: absolute; top: 19px; left: 50%;width: 68px; height: 80px; background: url(/renewLogin/img/ico_spr_login.png) no-repeat -47px 0; background-size: cover;}
+	.renewLogin .certificate-wrap.dubble-btn li+li:before{background: url(/renewLogin/img/ico_spr_login2.png) no-repeat -45px 0; background-size: cover;}
+	.renewLogin .text-wrap span img{height:auto; width:110px;}
+	
+	
+}
+@media all and (max-width: 480px) {
+	.renewLogin-pop .pop-inner .slogan {
+		padding: 10px 0 0 77px;
+	}
+	.renewLogin-pop .pop-inner .pop-btns a {
+		display: block;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.renewLogin-pop .pop-inner .list dd .btn-join {
+		position: relative;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.scanContents .renewLogin .input-inbox{margin-left:25vw;}
+	.scanContents .renewLogin .input-inbox label{left:-25vw; font-size:16px;}
+	.renewLogin .certificate-wrap.dubble-btn .dubble-btn-list .text-wrap strong{font-size:14px;}
+	.renewLogin .certificate-wrap.dubble-btn li a{font-size:14px;}
+}

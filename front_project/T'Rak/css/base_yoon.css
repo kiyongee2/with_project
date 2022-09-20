@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+html{height: 100%;}
+*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif;}
+#mainContainer{margin: 0; padding: 0; width: 100%; height: 100%;}
+.clear{clear: both;}
+
+/* header 영역 */
+header{width: 100%; height: 80px; background: #FD6A80;}
+.logo{float: left; width: 20%; height: 100%; box-sizing: border-box; background: url(../img/logo.png) no-repeat center;} 
+.logo a{ font-size: 0px;}
+.matAlarm {height: 100%; width: 40%; overflow: hidden; position: relative; float: left;}
+.matAlarm div {display: block; width: 200%; height: 100%; line-height: 80px; position: absolute; 
+    overflow: hidden; animation: matAlarm 7s linear infinite;}
+.matAlarm span {float: left; width: 50%; color: white}
+@keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
+.login{width: 35%; height: 100%; float: right; overflow: hidden; color:white; font-size: 0px;}
+.login ul {float:right}
+.login ul a{text-decoration: none;}
+.login .mypage{background: url("../img/white\ circle.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .nickname{overflow: hidden; color:white; font-size: 16px; text-decoration: none;}
+.login .mailBtn{background: url("../img/mail.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .setting{background: url("../img/setting.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
+
+/* section 영역 */
+section{height: 700px; width: 100%;}
+section h2{margin: 50px; font-weight: bold;}
+
+/* 내 정보 입력하기 */
+#info{
+    width: 300px; height: 400px; padding: 20px; 
+    border: 1px solid #FD6A80; border-radius: 10px;
+    padding-left: 40px;}
+label{font-weight: bold;}
+#name{
+    width: 150px; height: 50px;
+    border: 1px solid lightgray; border-radius: 10px;}
+/* p{font-weight: bold;}
+#gender{width: 150px; height: 60px;}
+#male{width: 60px; height: 50px; background: #FD6A80; color: white; text-align: center;}
+#female{width: 60px; height: 50px; background: #FD6A80; color: white; text-align: center;} */
+
+#gender{margin: 0 30px; width: 80%;}
+p{width: 20%; float: left; font-weight: bold;}
+#gender input[type="radio"]{display: none;}
+#gender label{ width: 60px; height: 50px; text-align: center; line-height: 50px;}
+#gender label:hover{color: #222; cursor: pointer;}
+#gender input:checked + label{color: #FD6A80; border: 1px solid #ddd; background: #eee;}
+
+
+
+/* 내 사진  */
+
+.filebox{
+  width: 550px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #FD6A80;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+.filebox h3{font-weight: bold; text-align: center;}
+
+.filebox label {
+    width: 120px; height: 120px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: .5em .60em;
+    color: #fff;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: lightgray;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: .25em;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+  }
+  
+  .filebox label:hover {
+    background-color: gray;
+  }
+  
+  .filebox label:active {
+    background-color:  gray;
+  }
+  
+  .filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  button{
+    width: 345px; height: 50px;
+    background-color: #FD6A80;
+    color: white;
+    border: 1px solid #FD6A80; border-radius: 20px;
+    float: right;
+    margin-top: 50px;
+  }
+/* footer 영역 */
+footer{border-top:1px solid #ddd; width: 100%;}
+footer .foot_list{list-style: none; margin:50px 0px 50px 30px; height: 100px; width: 100%; box-sizing: border-box;}
+footer .foot_list li{float: left; margin-right: 25px; border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li:last-child{border: none;}
+footer .foot_list li a{color: #000; text-decoration: none; margin-right: 25px; font-size: 0.8em; width: 100%;}
+
+/* 태블릿 기준 */
+@media all and (max-width:1191px) and (min-width:768px) {
+header .matAlarm{display: none;}
+header .login{width: 70%;}
+}
+
+/* 모바일 기준 */
+@media all and (max-width:767px) {
+.logo{float: none; width: 100%; height: 80px;box-sizing: border-box; position: absolute; background: url(../img/logo.png) no-repeat center;}
+.logo a{font-size: 0px;}
+header .login{width: 30%; position: relative;}
+header .matAlarm{display: none;} 
+.login ul li:nth-child(2), .login ul li:nth-child(3), .login ul li:nth-child(4){display: none;}
+
+/* M_footer 영역 */
+footer{border-top:1px solid #ddd; width: 100%;}
+footer .foot_list{list-style: none; margin:50px 20px; /* margin-left: 10px; */ height: 100px; width: 100%; box-sizing: border-box; padding: 0;}
+footer .foot_list li{float: left; margin-right: 10px; border: none;}
+footer .foot_list li{border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li a{margin-right: 10px;}
+
+}

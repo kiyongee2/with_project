@@ -1,0 +1,191 @@
+*{margin: 0;padding: 0;}
+.main_wrap{width: 100%;}
+body{font-family: "나눔고딕";}
+.main_nav1{ background: #fcdf33;}
+.main_nav1 ul,
+.main_nav2 ul
+{
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 90%;
+}
+.main_nav1 ul li a,
+.main_nav2 ul li a
+{color: rgba(0,0,0,.6);text-decoration: none;}
+.main_upper{
+    box-sizing: border-box;
+    height: 37px;
+    display: flex;
+    line-height: 26px;
+    justify-content: space-between;
+}
+.main_line{border-bottom: 1px solid rgba(0, 0, 0, 0.1);width: 100%;}
+.main_upper li{margin: 0 5px;}
+.main_lower{
+    box-sizing: border-box;
+    display: flex;
+    height: 62px;
+    line-height: 52px;
+    position: relative;
+}
+.main_lower li {margin-right: 5px;}
+.main_lower li span{font-size: 2em;}
+
+.main_lower input{
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    right:0 ;
+    width: 212px;
+    height: 34px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    border: 1px solid #fcdf33 ;
+}
+
+.join{
+    width: 1050px;
+    /* width: 100%; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 55px 50px 0;
+}
+
+.join form{margin: 40px auto 0;}
+.join form fieldset p:nth-of-type(1){
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #000;
+        font-size: 15px;
+        color: #f00;
+}
+.join .join_required::before{
+    content: "*";
+    display: inline-block;
+    position: absolute;
+    left: 5px; top: 3px;
+    width: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #f00;
+}
+.join_list{padding: 10px 0; border-bottom: 1px solid #ccc;}
+.join_list li{padding: 8px 0; list-style: none;}
+.join_list li .join_lbl{
+    position: relative;
+    float: left;
+    width: 150px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    line-height: 42px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -2px;
+}
+.join_list li .join_content{float: right; width: 770px;}
+.join_list li .join_content *{vertical-align: top;}
+.join_list li .join_content .join_space{display: inline-block; padding-top: 10px;}
+.join_list li .join_content.radio_area{
+    height: 45px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.join_list li .join_content.checkbox_area{
+    height: 45px;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.join_list label{vertical-align: middle;}
+.join_list li .join_common{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    /* width: 158px; */
+    /* height: 35px; */
+    overflow: hidden;
+    width: 160px;
+    height: 45px;
+    background-position: 100% 50%; border: 1px solid #ccc;
+}
+.join_list li .join_common select{
+    width: 200px; height: 43px;
+    display: inline-block;
+    padding: 0 10px;
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+.join_list li textarea{width: 100%; height: 245px;}
+.join_btn{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0;
+}
+.join_btn a{
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    background: #384d75;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.join fieldset{border: none;}
+.join legend{font-size: 0; width: 0; height: 0; line-height: 0; text-indent: -9999px; overflow: hidden; visibility: hidden; position: absolute; top: 0; left: 0;}
+.join_list input[type=radio] + label{display: inline-block; padding-left: 20px; margin-right: 20px; font-size: 15px;}
+.join_list input[type=checkbox] + label{display: inline-block; height: 20px; padding-left: 30px; line-height: 20px; font-size: 15px;}
+.join_list li input{height: 43px;}
+.join_list li:nth-of-type(1) input{width: 160px;}
+.join_list li input[placeholder]{width: 100%;}
+
+
+
+.join_list .clear::after{content: ""; display: block; clear: both;}
+
+@media screen and (max-width:800px)  {
+    .join{width: 100%; padding: 33px 20px 0;}
+    .join_list .join_content{float: none; width: auto;}
+    .join_list .join_content input[type=text],
+    .join_list .join_content input[type=tel],
+    .join_list .join_content input[type=password]{
+        border: none;
+        width: 100%;
+    }
+    .join_list li:nth-of-type(1) .join_content{padding: 5px 0 0; font-size: 0;}
+    .join_list li:nth-of-type(1) .join_content input[type=text],
+    .join_list li:nth-of-type(1) .join_content input[type=password]{
+        border: 1px solid #ccc;
+        width: 45%;
+        font-size: 14px;
+    }
+    .join_list li .join_content .join_space{width: 10%; text-align: center; font-size: 14px;}
+
+    .join_list li:nth-of-type(6) .join_content{padding-left: 20px; height: 40px; padding-top: 10px;}
+    .join_list li:nth-of-type(7) .join_content{padding-left: 20px; height: 40px; padding-top: 10px;}
+
+    .join_list li .join_common{
+        width: 100%;
+        height: 45px;
+        margin-top: 10px;
+    }
+    .join_list li .join_common select{
+        width: 100%;
+        height: 39px;
+    }
+
+    .join_list li textarea{height: 130px;}
+
+    .join_btn{padding: 20px 0;}
+    .join_btn a{
+        width: 100%;
+    }
+
+}
+
+

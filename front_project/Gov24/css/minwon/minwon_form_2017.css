@@ -1,0 +1,1355 @@
+@charset "UTF-8";
+/* ------------------------- page1 ------------------------- */
+/* ------------------------- page1 ------------------------- */
+/* ------------------------- NotoKR  ------------------------- */
+@font-face {
+  font-family: 'notokr-regular';
+  src: url("/2017/fonts/notokr-regular.eot");
+  src: url("/2017/fonts/notokr-regular.eot?#iefix") format("embedded-opentype"), url("/2017/fonts/notokr-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'notokr-medium';
+  src: url("/2017/fonts/notokr-medium.eot");
+  src: url("/2017/fonts/notokr-medium.eot?#iefix") format("embedded-opentype"), url("../font/notokr-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'notokr-bold';
+  src: url("/2017/fonts/notokr-bold.eot");
+  src: url("/2017/fonts/notokr-bold.eot?#iefix") format("embedded-opentype"), url("/2017/fonts/notokr-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/* ------------------------- NotoKR Hestia ------------------------- */
+/* ------------------------- WebFont NotoKr  ------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'notokr-medium', sans-serif;
+  font-weight: normal; }
+
+big, strong, b, dt, th {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.contentsWrap.l2 .aside > strong {
+  font-family: 'notokr-medium', sans-serif;
+  font-weight: normal; }
+
+/* 공공서비스 상세 */
+.as-lst > p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.view_wrap h4 {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.view_wrap h3 {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.service_summary h4.ministry_title {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.step-cont .cusform > li h4 {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.lnbbar > li > a {
+  font-family: 'notokr-medium', sans-serif;
+  font-weight: normal; }
+
+/* ------------------------- Main - 서비스와정보 ------------------------- */
+.mService .mylife dt span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.mypage .myinfo-list > li .accent {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.contentsWrap .contents .life-info-service-wrap .slide-wrap .slide .no-slide {
+  font-family: 'notokr-medium', sans-serif;
+  font-weight: normal; }
+.contentsWrap .contents .no-cont {
+  font-family: 'notokr-medium', sans-serif;
+  font-weight: normal; }
+
+/* ------------------------- LNB  ------------------------- */
+.lnbAll .myinfo .myinfo-list > li .accent {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+/* ------------------------- Button & Icon ------------------------- */
+.skip:hover, .skip:active, .skip:focus {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+body {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+/*--------------------- font-family page1 ---------------------*/
+.doc-num span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.use-guide dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-guide-box dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.cs-guide-box.center .truth-message {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-mobile h2.box-wrap, .cs-pc h2.box-wrap {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.cs-mobile .csm-btn-list .csm-btn a .arrow, .cs-pc .csm-btn-list .csm-btn a .arrow {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.cs-mobile .csm-btn-list .csm-btn a:hover, .cs-mobile .csm-btn-list .csm-btn a:active, .cs-mobile .csm-btn-list .csm-btn a:focus, .cs-pc .csm-btn-list .csm-btn a:hover, .cs-pc .csm-btn-list .csm-btn a:active, .cs-pc .csm-btn-list .csm-btn a:focus {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.cs-mobile .tbl-list.form-write > table th, .cs-mobile .tbl-list.form-write > table .td-label, .cs-pc .tbl-list.form-write > table th, .cs-pc .tbl-list.form-write > table .td-label {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.cs-mobile .tbl-list.form-write > table td .row-unit dt, .cs-pc .tbl-list.form-write > table td .row-unit dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+@media only screen and (max-width: 805px) {
+  .cs-mobile .choice-wrap input[type="checkbox"].custorm + label, .cs-mobile .choice-wrap input[type="radio"].custorm + label, .cs-pc .choice-wrap input[type="checkbox"].custorm + label, .cs-pc .choice-wrap input[type="radio"].custorm + label {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; } }
+.cs-mobile .note-box dt, .cs-pc .note-box dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-srch-list dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-index-list dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-biz-list dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.ico_minwon_complete .complete-message {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.agree-detail dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.loading-wrap .loading-state li * {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-pop-maxwid .cs-pop-downlist dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.as-tagcloud > .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.consulting-list li {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-bizinfo-tit span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-bizinfo-site p:first-child a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cs-biz-tab li a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.loading-wrap .loading-message {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.loading-wrap .loading-step .progress-step li span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.program-download .pd-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.program-download .pd-stit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.program-download .pd-btn {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.national-opinion.box-sky .opinion-btn p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.national-opinion.box-sky .box-white dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.national-opinion.box-sky .box-white dd {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+.national-opinion.box-gray dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.national-opinion.box-gray dd {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+
+.pop-wrap.pop-mca .pop-inner .pop-guide-box {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.pop-wrap.pop-mca .pop-inner .txt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.info-detail .accept-step2 li p .step-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.pop-app .pop-app-con {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.aside .as-con .as-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.aside .as-con.as-list ul, .aside .as-con.as-list ol {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: normal; }
+.aside .as-con.as-baner {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.fold-wrap .fold-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.consult-guide .cg-title-box .cg-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+/*--------------------- font-family page2 ---------------------*/
+/* font family */
+.potal-infor > li p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.tbl-view .answer .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.my-box .my-cont .my-cont-tt .tt, .my-box .my-cont .my-cont-sum {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cont-box-lst > li > .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.as-question .go2 a span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.faq-tab ul li.active a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.festival_visual span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.search-box.sch-result .r-lft {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.sorting-area > a.on, .sorting-area > span.on {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.gallery_wrap ul li dl dt a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.gallery_wrap ul li p.txt a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.gallery_wrap ul li .deco {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.search-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.unifiedSch1 li dl dt a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.unifiedSch-box .cont-gray dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.unifiedSch-box .cont-gray p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.unifiedSch3 ul li > span a, .unifiedSch3 ul li span.tx a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.unifiedSch3 ul li dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+  .unifiedSch3 ul li dl dt a {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; }
+
+.unifiedSch-faq ul li > span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.unifiedSch-faq ul li dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+  .unifiedSch-faq ul li dl dt a {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; }
+
+.search-box .sch-in.sch-in-ty4 .choice .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.search-box .sch-in.sch-in-ty4 .choice .ch-cont .ch-btn-lst li.on a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.search-box.sch-organization .select-wrap label {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.online-box .agree {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.other-service > div > p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.other-service > div ul li a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.service-lst .sv-lst > ul > li > a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+@media only screen and (max-width: 640px) {
+  .portal-area .portal-tt ul li .tx1 {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; } }
+
+.gov-accordion-area h3 {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.gov-accordion-area .work-lst > ul > li .contLst > ul > li > span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.gov-accordion-area .work-lst > ul > li .contLst > ul.tel-num li .tit a, .gov-accordion-area .work-lst > ul > li .contLst > ul.tel-num li .tit .active {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.gov-app > li dl dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.site-map .site1 > li > ul > li > a {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.pop-box-blue ul li span {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.use-mobile .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.result-txt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.acc-result > ul > li .tt.active {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.sch-word .tt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+/*--------------------- font-family page3 ---------------------*/
+.inbox {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.pop-wrap .pop-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.pop-wrap .pop-inner .tbl-list.type2 {
+  border: 1px solid #d3d3d3; }
+  .pop-wrap .pop-inner .tbl-list.type2 thead th {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; }
+
+@media only screen and (max-width: 805px) {
+  .pop-service .service-list dd .tit {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold; } }
+
+.pop-sso .pop-inner .sso-process li p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.cont-box .top {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.basic-list2 .list-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.notice-box dt {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.process li .num {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.agree-wrap .agree-tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.content-wrap .title {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.member-inner .fin-box .noti {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.disabled-inner .cont-box-blue.keyboard p {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.benefit-inner .myinfo .info-cont {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+  @media only screen and (max-width: 805px) {
+    .benefit-inner .myinfo .info-cont {
+      font-size: 16px;
+      font-size: 1.6rem;
+      font-family: 'Malgun Gothic', sans-serif;
+      font-weight: bold; } }
+.benefit-inner .benefit-wrap ul li {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.accessibility-inner .info-box .tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+.accessibility-inner .cont-box .tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+.tag-lst > .tit {
+  font-family: 'Malgun Gothic', sans-serif;
+  font-weight: bold; }
+
+/* tbl_input */
+.tbl-input select,
+.tbl-input input[type='text'],
+.tbl-input input[type='password'],
+.tbl-input input.inp,
+.tbl-input input.inp01_01 {
+  font-family: 'notokr-regular', sans-serif; }
+
+.bd {
+  font-weight: normal;
+  font-family: 'notokr-medium', sans-serif; }
+
+/*
+#####################################################################
+#                                                                   #
+#       IE 8 no webfont                                             #
+#                                                                   #
+#####################################################################
+*/
+.no-canvas {
+  /* 공공서비스 상세 */
+  /* ------------------------- Main - 서비스와정보 ------------------------- */
+  /* ------------------------- LNB  ------------------------- */
+  /* ------------------------- Button & Icon ------------------------- */
+  /*--------------------- font-family page1 ---------------------*/
+  /*--------------------- font-family page2 ---------------------*/
+  /* font family */
+  /*--------------------- font-family page3 ---------------------*/
+  /*--------------------- font-family page3 ---------------------*/ }
+  .no-canvas .contentsWrap.l2 .aside > strong {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas h1, .no-canvas h2, .no-canvas h3, .no-canvas h4, .no-canvas h5, .no-canvas h6 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas big, .no-canvas strong, .no-canvas b, .no-canvas dt, .no-canvas th {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .view_wrap h4 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .view_wrap h3 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .service_summary h4.ministry_title {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .step-cont .cusform > li h4 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .mService .mylife dt span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .mypage .myinfo-list > li .accent {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .contentsWrap .contents .life-info-service-wrap .slide-wrap .slide .no-slide {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .contentsWrap .contents .no-cont {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .lnbAll .myinfo .myinfo-list > li .accent {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .skip:hover, .no-canvas .skip:active, .no-canvas .skip:focus {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas body {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .doc-num span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .use-guide dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-guide-box dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-guide-box.center .truth-message {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-mobile h2.box-wrap, .no-canvas .cs-pc h2.box-wrap {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-mobile .csm-btn-list .csm-btn a .arrow, .no-canvas .cs-pc .csm-btn-list .csm-btn a .arrow {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-mobile .csm-btn-list .csm-btn a:hover, .no-canvas .cs-mobile .csm-btn-list .csm-btn a:active, .no-canvas .cs-mobile .csm-btn-list .csm-btn a:focus, .no-canvas .cs-pc .csm-btn-list .csm-btn a:hover, .no-canvas .cs-pc .csm-btn-list .csm-btn a:active, .no-canvas .cs-pc .csm-btn-list .csm-btn a:focus {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-mobile .tbl-list.form-write > table th, .no-canvas .cs-mobile .tbl-list.form-write > table .td-label, .no-canvas .cs-pc .tbl-list.form-write > table th, .no-canvas .cs-pc .tbl-list.form-write > table .td-label {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-mobile .tbl-list.form-write > table td .row-unit dt, .no-canvas .cs-pc .tbl-list.form-write > table td .row-unit dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  @media only screen and (max-width: 805px) {
+    .no-canvas .cs-mobile .choice-wrap input[type="checkbox"].custorm + label, .no-canvas .cs-mobile .choice-wrap input[type="radio"].custorm + label, .no-canvas .cs-pc .choice-wrap input[type="checkbox"].custorm + label, .no-canvas .cs-pc .choice-wrap input[type="radio"].custorm + label {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; } }
+  .no-canvas .cs-mobile .note-box dt, .no-canvas .cs-pc .note-box dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-srch-list dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-index-list dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-biz-list dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .ico_minwon_complete .complete-message {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .agree-detail dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .loading-wrap .loading-state li * {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cs-pop-maxwid .cs-pop-downlist dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .as-tagcloud > .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .potal-infor > li p {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .tbl-view .answer .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .my-box .my-cont .my-cont-tt .tt, .no-canvas .my-box .my-cont .my-cont-sum {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cont-box-lst > li > .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .as-question .go2 a span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .faq-tab ul li.active a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .festival_visual span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .search-box.sch-result .r-lft {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .sorting-area > a.on, .no-canvas .sorting-area > span.on {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gallery_wrap ul li dl dt a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gallery_wrap ul li p.txt a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gallery_wrap ul li .deco {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .search-tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch1 li dl dt a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch-box .cont-gray dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch-box .cont-gray p {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch3 ul li > span a, .no-canvas .unifiedSch3 ul li span.tx a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch3 ul li dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+    .no-canvas .unifiedSch3 ul li dl dt a {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; }
+  .no-canvas .unifiedSch-faq ul li > span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .unifiedSch-faq ul li dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+    .no-canvas .unifiedSch-faq ul li dl dt a {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; }
+  .no-canvas .search-box .sch-in.sch-in-ty4 .choice .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .search-box .sch-in.sch-in-ty4 .choice .ch-cont .ch-btn-lst li.on a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .search-box.sch-organization .select-wrap label {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .online-box .agree {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .other-service > div > p {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .other-service > div ul li a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .service-lst .sv-lst > ul > li > a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  @media only screen and (max-width: 640px) {
+    .no-canvas .portal-area .portal-tt ul li .tx1 {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; } }
+  .no-canvas .gov-accordion-area h3 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gov-accordion-area .work-lst > ul > li .contLst > ul > li > span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gov-accordion-area .work-lst > ul > li .contLst > ul.tel-num li .tit a, .no-canvas .gov-accordion-area .work-lst > ul > li .contLst > ul.tel-num li .tit .active {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .gov-app > li dl dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .site-map .site1 > li > ul > li > a {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .pop-box-blue ul li span {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .use-mobile .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .result-txt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .acc-result > ul > li .tt.active {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .sch-word .tt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .inbox {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .pop-wrap .pop-tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .pop-wrap .pop-inner .tbl-list.type2 {
+    border: 1px solid #d3d3d3; }
+    .no-canvas .pop-wrap .pop-inner .tbl-list.type2 thead th {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; }
+  @media only screen and (max-width: 805px) {
+    .no-canvas .pop-service .service-list dd .tit {
+      font-family: 'Dotum', sans-serif;
+      font-weight: bold; } }
+  .no-canvas .pop-sso .pop-inner .sso-process li p {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .cont-box .top {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .basic-list2 .list-tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .notice-box dt {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .process li .num {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .agree-wrap .agree-tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .content-wrap .title {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .member-inner .fin-box .noti {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .disabled-inner .cont-box-blue.keyboard p {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .benefit-inner .myinfo .info-cont {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+    @media only screen and (max-width: 805px) {
+      .no-canvas .benefit-inner .myinfo .info-cont {
+        font-size: 16px;
+        font-size: 1.6rem;
+        font-family: 'Dotum', sans-serif;
+        font-weight: bold; } }
+  .no-canvas .benefit-inner .benefit-wrap ul li {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .accessibility-inner .info-box .tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .accessibility-inner .cont-box .tit {
+    font-family: 'Dotum', sans-serif;
+    font-weight: bold; }
+  .no-canvas .tbl-input select,
+  .no-canvas .tbl-input input[type='text'],
+  .no-canvas .tbl-input input[type='password'],
+  .no-canvas .tbl-input input.inp,
+  .no-canvas .tbl-input input.inp01_01 {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+  .no-canvas .bd {
+    font-family: 'Dotum', sans-serif;
+    font-weight: normal; }
+
+.minwon-form * {
+  color: #333; }
+.minwon-form .tc-gray {
+  color: #666; }
+.minwon-form .tc-sky {
+  color: #3a98d0; }
+.minwon-form .tc-sky2 {
+  color: #2196f3; }
+.minwon-form .tc-sky3 {
+  color: #036cb5; }
+.minwon-form .tc-navy {
+  color: #1a237e; }
+.minwon-form .tc-orange {
+  color: #f57f17; }
+  .minwon-form .tc-orange * {
+    color: #f57f17; }
+.minwon-form .mt10 {
+  margin-top: 10px; }
+.minwon-form .w40 {
+  width: 40px; }
+.minwon-form .w50 {
+  width: 50px; }
+.minwon-form .w60 {
+  width: 60px; }
+.minwon-form .w70 {
+  width: 70px; }
+.minwon-form .w80 {
+  width: 80px; }
+.minwon-form .wid-smid {
+  width: 141px; }
+.minwon-form .wid-mid {
+  width: 182px; }
+.minwon-form .wid-bmid {
+  width: 192px; }
+.minwon-form .wid-half {
+  width: 230px; }
+  .minwon-form .wid-half.txt2 {
+    width: 168px; }
+  .minwon-form .wid-half.txt3 {
+    width: 154px; }
+  .minwon-form .wid-half.txt4 {
+    width: 140px; }
+.minwon-form .wid-sign {
+  width: 526px; }
+.minwon-form .wid-full {
+  width: 100%; }
+.minwon-form .dsp-in {
+  display: inline-block;
+  vertical-align: middle; }
+  .minwon-form .dsp-in:first-child {
+    margin-left: 0; }
+  .minwon-form .dsp-in + .dsp-in {
+    margin-left: 15px; }
+.minwon-form .va-top {
+  vertical-align: top; }
+.minwon-form .ta-center {
+  text-align: center; }
+.minwon-form .rn-btn {
+  float: right;
+  margin: 12px 10px 0 10px !important; }
+.minwon-form .apply-step {
+  margin: 0 auto;
+  text-align: center; }
+  .minwon-form .apply-step li {
+    display: inline-block;
+    margin: 0 4px 25px 4px;
+    padding: 0 20px;
+    min-width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #333;
+    border: 1px solid #959595;
+    background-color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    box-sizing: border-box; }
+    .minwon-form .apply-step li.current {
+      color: #fff;
+      border: 1px solid #f57f17;
+      background-color: #f57f17; }
+.minwon-form .apply-title {
+  position: relative;
+  padding: 14px 18px;
+  background-color: #f7f7f7; }
+  .minwon-form .apply-title.guide {
+    padding-top: 0;
+    font-size: 13px;
+    font-size: 1.3rem; }
+  .minwon-form .apply-title h2 {
+    font-size: 20px;
+    font-size: 2rem;
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold;
+    color: #101010;
+    line-height: 1.2;
+    background: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    letter-spacing: -3px; }
+    @media only screen and (max-width: 805px) {
+      .minwon-form .apply-title h2 {
+        margin: 0 auto; } }
+    @media only screen and (max-width: 640px) {
+      .minwon-form .apply-title h2 {
+        width: auto; } }
+  .minwon-form .apply-title .guide-popup {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -14px;
+    letter-spacing: -0.1em;
+    font-size: 13px;
+    font-size: 1.3rem; }
+    .minwon-form .apply-title .guide-popup li {
+      position: relative;
+      display: inline-block;
+      padding: 3px 8px 3px 10px; }
+      .minwon-form .apply-title .guide-popup li:before {
+        position: absolute;
+        display: block;
+        content: '';
+        top: 50%;
+        left: 0;
+        margin-top: -7px;
+        width: 1px;
+        height: 14px;
+        background: #ccc; }
+      .minwon-form .apply-title .guide-popup li:first-child:before {
+        display: none; }
+      .minwon-form .apply-title .guide-popup li a:hover, .minwon-form .apply-title .guide-popup li a:focus {
+        color: #027ee1;
+        text-decoration: underline; }
+.minwon-form .apply-guide {
+  font-size: 13px;
+  font-size: 1.3rem;
+  letter-spacing: -0.08em; }
+  .minwon-form .apply-guide.box-guide {
+    margin-top: 15px;
+    padding: 7px 11px;
+    line-height: 1.7;
+    background-color: #edf3f8; }
+    .minwon-form .apply-guide.box-guide.in-form {
+      margin-top: 0;
+      padding: 10px 11px;
+      line-height: 1.6;
+      background-color: #fff;
+      border-bottom: 1px solid #d5d5d5; }
+    .minwon-form .apply-guide.box-guide > *, .minwon-form .apply-guide.box-guide li {
+      margin-top: 20px; }
+      .minwon-form .apply-guide.box-guide > *:first-child, .minwon-form .apply-guide.box-guide li:first-child {
+        margin-top: 0; }
+    .minwon-form .apply-guide.box-guide li > * {
+      padding-left: 10px; }
+      .minwon-form .apply-guide.box-guide li > *:first-child {
+        padding-left: 0; }
+    .minwon-form .apply-guide.box-guide li li {
+      margin-top: 0; }
+  .minwon-form .apply-guide.btn-guide {
+    margin-top: 20px; }
+    .minwon-form .apply-guide.btn-guide li {
+      position: relative;
+      padding-left: 12px;
+      color: #666; }
+      .minwon-form .apply-guide.btn-guide li:before {
+        position: absolute;
+        display: block;
+        content: '';
+        left: 0;
+        top: 50%;
+        width: 3px;
+        height: 3px;
+        margin-top: -2px;
+        background-color: #55aef5; }
+  .minwon-form .apply-guide.tbl-guide {
+    margin-top: 5px; }
+  .minwon-form .apply-guide.indent {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 26px;
+    padding-left: 6px !important; }
+    .minwon-form .apply-guide.indent > span {
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .minwon-form .apply-guide.indent-in {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 32px;
+    padding-left: 20px !important; }
+    .minwon-form .apply-guide.indent-in > span {
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .minwon-form .apply-guide.txt-in {
+    position: relative;
+    padding-left: 14px; }
+    .minwon-form .apply-guide.txt-in > span {
+      position: absolute;
+      left: 0;
+      top: 0; }
+.minwon-form .apply-wrap h3 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-top: 26px;
+  padding-bottom: 12px;
+  border-bottom: none; }
+.minwon-form .apply-wrap .inbox, .minwon-form .apply-wrap input[type=text].inbox {
+  padding: 0 5px;
+  border: 1px solid #898989;
+  background: #fff;
+  color: #333;
+  line-height: 30px;
+  height: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box; }
+  .minwon-form .apply-wrap .inbox.emp, .minwon-form .apply-wrap input[type=text].inbox.emp {
+    background: #ddf7f8; }
+  .minwon-form .apply-wrap .inbox.non, .minwon-form .apply-wrap input[type=text].inbox.non {
+    padding: 0 3px;
+    border: 1px solid #fff;
+    background: #fff; }
+.no-textshadow .minwon-form .apply-wrap input[type="checkbox"].custorm, .no-textshadow .minwon-form .apply-wrap input[type="radio"].custorm {
+  margin: 2px 0; }
+.minwon-form .apply-wrap textarea.inbox {
+  height: auto;
+  line-height: 1.5 !important; }
+.minwon-form .apply-wrap select {
+  padding: 5px 25px 5px 10px;
+  font-family: inherit;
+  vertical-align: middle;
+  background: url("/2017/img/common/select_box1.png") no-repeat right 50% #fff;
+  border: 1px solid #898989;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+  .minwon-form .apply-wrap select::-ms-expand {
+    display: none; }
+  .no-textshadow .minwon-form .apply-wrap select {
+    background: none;
+    padding: 5px 5px; }
+.minwon-form .apply-wrap .no-canvas select {
+  padding: 7px 5px; }
+.minwon-form .apply-wrap .apply-stit {
+  position: relative; }
+  .minwon-form .apply-wrap .apply-stit .in-btn {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .minwon-form .apply-wrap .apply-stit .in-guide {
+    position: absolute;
+    top: 3px;
+    right: 0; }
+.minwon-form .apply-wrap .apply-form {
+  border-top: 1px solid #333; }
+  .minwon-form .apply-wrap .apply-form + .apply-form {
+    border-top: none; }
+  .minwon-form .apply-wrap .apply-form table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse; }
+  .minwon-form .apply-wrap .apply-form th, .minwon-form .apply-wrap .apply-form td {
+    color: #333;
+    text-align: left;
+    border-bottom: 1px solid #d5d5d5; }
+  .minwon-form .apply-wrap .apply-form th {
+    font-size: 13px;
+    font-size: 1.3rem;
+    letter-spacing: -0.12em;
+    padding: 12px 0 12px 10px;
+    background: #f7f7f7; }
+    .minwon-form .apply-wrap .apply-form th.bg-white {
+      background: #fff; }
+  .minwon-form .apply-wrap .apply-form td {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 10px 0 10px 10px;
+    background: #fff; }
+  .minwon-form .apply-wrap .apply-form label {
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    font-size: 1.3rem; }
+  .minwon-form .apply-wrap .apply-form.apply-list th, .minwon-form .apply-wrap .apply-form.apply-list td {
+    text-align: center;
+    border-left: 1px solid #d5d5d5; }
+    .minwon-form .apply-wrap .apply-form.apply-list th:first-child, .minwon-form .apply-wrap .apply-form.apply-list td:first-child {
+      border-left: 0; }
+  .minwon-form .apply-wrap .apply-form.apply-list th {
+    padding: 12px 5px; }
+  .minwon-form .apply-wrap .apply-form.apply-list td {
+    padding: 10px 5px; }
+  .minwon-form .apply-wrap .apply-form .apply-btn.basic * {
+    min-width: auto; }
+  .minwon-form .apply-wrap .apply-form .choice-type {
+    font-size: 13px;
+    font-size: 1.3rem; }
+    .minwon-form .apply-wrap .apply-form .choice-type > * {
+      padding-left: 15px; }
+      .minwon-form .apply-wrap .apply-form .choice-type > *:first-child {
+        padding-left: 0; }
+    .minwon-form .apply-wrap .apply-form .choice-type.valign > * {
+      display: block;
+      width: 100%;
+      padding-left: 0; }
+  .minwon-form .apply-wrap .apply-form .btn-type {
+    position: relative;
+    padding-right: 10px; }
+    .minwon-form .apply-wrap .apply-form .btn-type.rs-wid {
+      padding-right: 48px; }
+    .minwon-form .apply-wrap .apply-form .btn-type .apply-btn {
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .minwon-form .apply-wrap .apply-form .btn-type input, .minwon-form .apply-wrap .apply-form .btn-type select {
+      width: 100%; }
+    .minwon-form .apply-wrap .apply-form .btn-type.txt2 {
+      padding-left: 62px; }
+    .minwon-form .apply-wrap .apply-form .btn-type.txt3 {
+      padding-left: 76px; }
+    .minwon-form .apply-wrap .apply-form .btn-type.txt4 {
+      padding-left: 90px; }
+  .minwon-form .apply-wrap .apply-form .full-type {
+    padding-right: 10px; }
+    .minwon-form .apply-wrap .apply-form .full-type input, .minwon-form .apply-wrap .apply-form .full-type select, .minwon-form .apply-wrap .apply-form .full-type textarea {
+      width: 100%; }
+    .minwon-form .apply-wrap .apply-form .full-type.rs-wid {
+      padding-right: 47px; }
+  .minwon-form .apply-wrap .apply-form .date-type {
+    color: #777; }
+    .minwon-form .apply-wrap .apply-form .date-type label {
+      color: #777; }
+    .minwon-form .apply-wrap .apply-form .date-type span {
+      color: #777;
+      font-weight: bold; }
+    .minwon-form .apply-wrap .apply-form .date-type input {
+      width: 46px;
+      margin-left: 7px; }
+      .minwon-form .apply-wrap .apply-form .date-type input.non {
+        width: 25px; }
+      .minwon-form .apply-wrap .apply-form .date-type input:first-child {
+        width: 60px;
+        margin: 0; }
+        .minwon-form .apply-wrap .apply-form .date-type input:first-child.non {
+          width: 50px; }
+    .minwon-form .apply-wrap .apply-form .date-type.rs-wid input {
+      width: 36px;
+      margin-left: 2px; }
+      .minwon-form .apply-wrap .apply-form .date-type.rs-wid input:first-child {
+        width: 50px; }
+    .minwon-form .apply-wrap .apply-form .date-type.yy input:first-child {
+      width: 212px; }
+    .minwon-form .apply-wrap .apply-form .date-type.yymm input {
+      width: 60px; }
+      .minwon-form .apply-wrap .apply-form .date-type.yymm input:first-child {
+        width: 120px; }
+  .minwon-form .apply-wrap .apply-form .period-type input, .minwon-form .apply-wrap .apply-form .period-type select {
+    width: 70px; }
+  .minwon-form .apply-wrap .apply-form .period-type span {
+    color: #777;
+    font-weight: bold; }
+  .minwon-form .apply-wrap .apply-form .regnum-type input {
+    width: 105px; }
+    .minwon-form .apply-wrap .apply-form .regnum-type input.non {
+      width: 152px; }
+      .minwon-form .apply-wrap .apply-form .regnum-type input.non:first-child {
+        width: 68px; }
+  .minwon-form .apply-wrap .apply-form .regnum-type span {
+    display: inline-block;
+    width: 6px;
+    text-align: center; }
+  .minwon-form .apply-wrap .apply-form .regnum-type.rs-wid input {
+    width: 85px; }
+    .minwon-form .apply-wrap .apply-form .regnum-type.rs-wid input.non {
+      width: 109px; }
+      .minwon-form .apply-wrap .apply-form .regnum-type.rs-wid input.non:first-child {
+        width: 68px; }
+  .minwon-form .apply-wrap .apply-form .regnum-type.rs-wid span {
+    width: 11px; }
+    .minwon-form .apply-wrap .apply-form .regnum-type.rs-wid span.non {
+      width: 5px; }
+  .minwon-form .apply-wrap .apply-form .bizregnum-type input {
+    width: 60px; }
+    .minwon-form .apply-wrap .apply-form .bizregnum-type input + span + input {
+      width: 40px; }
+      .minwon-form .apply-wrap .apply-form .bizregnum-type input + span + input + span + input {
+        width: 93px; }
+  .minwon-form .apply-wrap .apply-form .bizregnum-type span {
+    display: inline-block;
+    width: 6px;
+    text-align: center; }
+  .minwon-form .apply-wrap .apply-form .bizregnum-type.rs-wid input {
+    width: 50px; }
+    .minwon-form .apply-wrap .apply-form .bizregnum-type.rs-wid input + span + input {
+      width: 38px; }
+      .minwon-form .apply-wrap .apply-form .bizregnum-type.rs-wid input + span + input + span + input {
+        width: 66px; }
+  .minwon-form .apply-wrap .apply-form .phone-type input, .minwon-form .apply-wrap .apply-form .phone-type select {
+    width: 60px; }
+    .minwon-form .apply-wrap .apply-form .phone-type input:first-child, .minwon-form .apply-wrap .apply-form .phone-type select:first-child {
+      width: 70px; }
+  .minwon-form .apply-wrap .apply-form .phone-type span {
+    display: inline-block;
+    width: 7px;
+    text-align: center; }
+  .minwon-form .apply-wrap .apply-form .phone-type.rs-wid input, .minwon-form .apply-wrap .apply-form .phone-type.rs-wid select {
+    width: 45px; }
+    .minwon-form .apply-wrap .apply-form .phone-type.rs-wid input:first-child, .minwon-form .apply-wrap .apply-form .phone-type.rs-wid select:first-child {
+      width: 60px; }
+  .minwon-form .apply-wrap .apply-form .complex-type .apply-guide, .minwon-form .apply-wrap .apply-form .complex-type .apply-btn {
+    margin-left: 2px;
+    vertical-align: middle; }
+  .minwon-form .apply-wrap .apply-form .complex-type.add-detail select {
+    width: 80px; }
+  .minwon-form .apply-wrap .apply-form .complex-type.add-detail input {
+    width: 60px; }
+  .minwon-form .apply-wrap .apply-form .complex-type.add-detail .apply-guide, .minwon-form .apply-wrap .apply-form .complex-type.add-detail .apply-btn {
+    margin-left: 20px; }
+  .minwon-form .apply-wrap .apply-form .complex-type.add-detail select + label {
+    margin-left: 6px; }
+  .minwon-form .apply-wrap .apply-form .complex-type.san label + input {
+    margin-left: 4px; }
+  .minwon-form .apply-wrap .apply-form .complex-type.tong input + label {
+    margin-left: 4px; }
+  .minwon-form .apply-wrap .apply-form input + span, .minwon-form .apply-wrap .apply-form select + span {
+    padding-left: 3px; }
+  .minwon-form .apply-wrap .apply-form input + input, .minwon-form .apply-wrap .apply-form input + select, .minwon-form .apply-wrap .apply-form select + input, .minwon-form .apply-wrap .apply-form select + select {
+    margin-left: 5px; }
+.minwon-form .apply-wrap .mk-star {
+  color: #d10000 !important; }
+.minwon-form .apply-btn-list {
+  margin-top: 30px; }
+  .minwon-form .apply-btn-list:after {
+    content: "";
+    display: table; }
+  .minwon-form .apply-btn-list:after {
+    clear: both; }
+  .minwon-form .apply-btn-list .btn-align.center {
+    text-align: center; }
+  .minwon-form .apply-btn-list .btn-align.left {
+    float: left; }
+  .minwon-form .apply-btn-list .btn-align.right {
+    float: right; }
+.minwon-form .apply-btn {
+  margin-left: 4px; }
+  .minwon-form .apply-btn:first-child {
+    margin-left: 0; }
+  .minwon-form .apply-btn * {
+    position: relative;
+    margin: 0;
+    padding: 0 11px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    white-space: nowrap;
+    color: #fff;
+    text-align: center; }
+  .minwon-form .apply-btn.basic * {
+    font-size: 14px;
+    font-size: 1.4rem;
+    height: 36px;
+    line-height: 36px;
+    min-width: 76px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .minwon-form .apply-btn.basic.line * {
+    font-size: 14px;
+    font-size: 1.4rem;
+    height: 34px;
+    line-height: 34px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .minwon-form .apply-btn.guide * {
+    font-size: 12px;
+    font-size: 1.2rem;
+    height: 22px;
+    line-height: 22px; }
+  .minwon-form .apply-btn.guide.line * {
+    font-size: 12px;
+    font-size: 1.2rem;
+    height: 20px;
+    line-height: 20px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .minwon-form .apply-btn.icon * {
+    position: relative;
+    padding-left: 35px; }
+    .minwon-form .apply-btn.icon *:before {
+      position: absolute;
+      display: block;
+      content: '';
+      left: 11px;
+      top: 50%;
+      width: 17px;
+      height: 17px;
+      margin-top: -9px;
+      background: url("/2017/img/page/icon_question.png") no-repeat 0 0; }
+  .minwon-form .apply-btn.line * {
+    font-size: 14px;
+    font-size: 1.4rem;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px; }
+  .minwon-form .apply-btn.line.line.sky * {
+    color: #2196f3;
+    background-color: #fff; }
+  .minwon-form .apply-btn.line.line.light * {
+    color: #fff;
+    border: 1px solid #616161;
+    background-color: #616161; }
+  .minwon-form .apply-btn.line.line.gray * {
+    color: #333;
+    background-color: #fff; }
+  .minwon-form .apply-btn.line.line.navy * {
+    color: #fff;
+    border: 1px solid #07233c;
+    background-color: #0e3b64; }
+  .minwon-form .apply-btn.light * {
+    background-color: #616161; }
+  .minwon-form .apply-btn.gray * {
+    background-color: #424242; }
+  .minwon-form .apply-btn.green * {
+    background-color: #82ac01; }
+  .minwon-form .apply-btn.navy * {
+    background-color: #0e3b64; }
+  .minwon-form .apply-btn.sky * {
+    background-color: #2196f3; }
+  .minwon-form .apply-btn.long-wid * {
+    width: 127px; }
+.minwon-form br + .apply-btn {
+  margin-left: 0; }
+  .minwon-form br + .apply-btn * {
+    margin-top: 4px; }
+
+.tabcontainer .minwon-form {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=minwon_form_2017.css.map */

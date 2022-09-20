@@ -1,0 +1,5 @@
+#siteMap{ width: 400px; height: 700px; position: absolute; z-index: 9999;
+    background: #fff; top: 78px; right: 0%; border: #FD6A80 2px solid; display: none;}
+#siteMap ul{padding:10px;}
+#siteMap ul li{list-style: none; margin-bottom: 20px;}
+#siteMap ul li a{text-decoration: none; color: #FD6A80;}

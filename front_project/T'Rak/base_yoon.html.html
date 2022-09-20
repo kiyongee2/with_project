@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T'Rak 채팅</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/319f0bada6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/base_yoon.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" \
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="#"></script>
+    <script src="./js/sitemap.js"></script>
+    <link rel="stylesheet" href="./css/sitemap.css">
+</head>
+<body>
+    <div id="siteMap">
+        <ul>
+            <li>May<br><a href="./매너_may.html">이용 시 매너 사항 준수</a><br><a href="./위치_may.html">위치 활성화 & 알림,소식</a><br><a href="./번호및이메일_may.html">전화번호, 이메일주소</a></li>
+            <li>Yoon<br><a href="./base_yoon.html.html">내 정보 입력하기</a></li>
+            <li>LuLu<br><a href="./base.html.html">나의 관심사</a></li>
+            <li>shotgun<br><a href="./index.html">메인 페이지 - 1</a></li>
+            <li>kyouka<br><a href="./join_kyouka.html">연락처 차단 및 이용약관</a></li>
+            <li>wong<br><a href="./join-.html.html">회원가입 페이지</a><br><a href="./pc-login-popup.html">PC로그인 팝업</a></li>
+            <li>AK<br><a href="./join.html">로그인 페이지</a></li>
+            <li>Woo<br><a href="./main_chat.html">메인 페이지 - 2(채팅)</a></li>
+        </ul>
+    </div>
+    <div id="mainContainer">
+        <header>
+            <div class="logo">
+                <h1><a href="#">T'Rak</a></h1>
+            </div>
+            <div class="matAlarm">
+                <div>
+                  <span>정선필님과 정채연님의 매칭이 성사되었습니다.</span>
+                  <span>한지수님과 김지민님의 매칭이 성사되었습니다.</span>
+                </div>
+            </div>
+            <div class="login">
+                <ul>
+                    <li><a href="#"><div class="mypage">마이페이지</div></a></li>
+                    <li><a href="#"><div class="nickname">UserID</div></a></li>
+                    <li><a href="#"><div class="mailBtn">쪽지</div></a></li>
+                    <li><a href="#"><div class="setting">설정</div></a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div id="me">
+                <h2>내 정보 입력하기</h2>
+            
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-xm-12 col-md-6 col-lg-6 maindiv">
+                        <div id="info" style="line-height: 5;">
+                            <div>
+                                <label for="name">이름</label>
+                                <input placeholder="  홍길동" autofocus type="text" id="name">
+                            </div>
+                            <div>
+                                <label for="bithdate">출생</label>
+                                <input type="date" id="bithdate" 
+                                style="width: 150px; height: 50px; border-radius:10px; border: 1px solid lightgray;" >
+                            </div>
+                            <!-- <div>
+                                <p>성별</p>
+                                <div id="male">남성
+                                    <div id="female">여성</div>
+                                </div>  
+                            </div> -->
+                            <p>성별</p>
+                            <div id="gender">
+                                <input type="radio" id="radio1" name="radios" value=0 checked="checked">
+                                <label for="radio1">남성</label>
+                                <input type="radio" id="radio2" name="radios" value=1>
+                                <label for="radio2">여성</label>
+                              </div>
+                                
+                            <div class="clear">
+                                <label for="company">소속</label>
+                                <input placeholder="  회사/학교" autofocus type="text" id="name">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xm-12 col-md-6 col-lg-6 maindiv">
+                        
+                        <div class="filebox">
+                            <h3>내 사진</h3>
+                                
+                                    <label for="ex_file">업로드</label>
+                                    <input type="file" id="ex_file">
+                                    <label for="ex_file">업로드</label>
+                                    <input type="file" id="ex_file">
+                                    <label for="ex_file">업로드</label><br>
+                                    <input type="file" id="ex_file">
+                                    <label for="ex_file">업로드</label>
+                                    <input type="file" id="ex_file">
+                                    <label for="ex_file">업로드</label>
+                                    <input type="file" id="ex_file">
+                                    <label for="ex_file">업로드</label>
+                                    <input type="file" id="ex_file"> 
+                        </div>
+                
+                    </div>
+                    
+                 </div>
+                            <button type="submit">작성완료</button>
+              </div>
+            </section>
+
+        <footer>
+            <ul class="foot_list clear">
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">위치기반서비스 이용약관</a></li>
+                <li><a href="">청소년 보호정책</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

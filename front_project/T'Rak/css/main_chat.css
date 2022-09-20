@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+html{height: 100%;}
+*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif;}
+a{text-decoration: none;}
+li{list-style: none;}
+#mainContainer{margin: 0; padding: 0; width: 100%; height: 100%;}
+.clear{clear: both;}
+
+/* header 영역 */
+#st1{display: block;}
+#st2{display: none;}
+header{width: 100%; height: 80px; background: #FD6A80;}
+.logo{float: left; width: 20%; height: 100%; box-sizing: border-box; background: url(../img/logo.png) no-repeat center;} 
+.logo a{ font-size: 0px;}
+.matAlarm {height: 100%; width: 40%; overflow: hidden; position: relative; float: left;}
+.matAlarm div {display: block; width: 200%; height: 100%; line-height: 80px; position: absolute; 
+    overflow: hidden; animation: matAlarm 7s linear infinite;}
+.matAlarm span {float: left; width: 50%; color: white}
+@keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
+.login{width: 35%; height: 100%; float: right; overflow: hidden; color:white; font-size: 0px;}
+.login ul {float:right}
+.login ul a{text-decoration: none;}
+.login .mypage{background: url("../img/white\ circle.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .nickname{overflow: hidden; color:white; font-size: 16px; text-decoration: none;}
+.login .mailBtn{background: url("../img/mail.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login .setting{background: url("../img/setting.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+.login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
+
+/* section 영역 */
+section{width: 100%; height: 100%;}
+section .row{height: 1150px; margin: 10px 0px;}
+section .maindiv{border-right: 2px solid #ddd; height:100%; box-sizing: border-box;}
+section .maindiv:last-child{border:none}
+
+/* leftSection */
+section .searchBox{border-radius: 20px; border: none; background: #eee; text-align: left; width: 100%; height: 40px;}
+section .searchBtn{position: relative; top:-30px; left: 85%; width: 40px; border: none; background: none;}
+section .chatlistbox {list-style: none; margin-top: 20px; width: 100%; padding: 0;}
+section .chatlistbox a{text-decoration: none;}
+section .chatlistbox li{border: none; border-radius: 20px; box-sizing: border-box; height: 120px; padding: 20px; }
+section .chatlistbox li:hover{background: #eee; border-radius: 0px;}
+section .chatlistbox img{width: 80px; height: 80px; border-radius: 20px; float: left; margin-right:20px;}
+section .chatlistbox b{color: black;}
+section .chatlistbox .threeDot{float: right; color: #FD6A80;}
+section .chatlistbox p{color: black; margin: 30px 0px 0px 0px; overflow: hidden; height: 20px;}
+
+/* centerSection */
+.partnerInfo{width: 100%; height: 150px; border-bottom: 1px solid #ddd; text-align: center;}
+.partnerInfo img{border-radius: 20px; margin-bottom: 20px;}
+.center h4{text-align: center; font-size: 14px; margin:20px 0px}
+.chatBox{background: #eee; border-radius: 15px; padding: 10px; text-align: center; margin: 10px;}
+.cb1{width: 120px;}
+.cb2{width: 150px; float: right;}
+.cb3{width: 300px; float:left; margin-bottom: 30px;}
+.cb4{width: 100px; float:right; margin-bottom: 30px;}
+.cb5{width: 250px; float:left; margin-bottom: 30px;}
+.cb6{width: 100px; float:right; margin-bottom: 30px;}
+.telepathy{width: 80%; height: 150px; background: #ffffff; text-align: center; margin: 10px auto; border-radius: 15px; border: 1px solid black;}
+.telepathy p{color:#FD6A80;}
+.telepathy button{width: 30%; margin:0 15px; border-radius: 10px; background: #fff;}
+.telepathy button:hover{background: #FD6A80; color: white;}
+.telehead{color:white; background: #FD6A80; height: 40px; line-height: 40px; border-radius: 15px 15px 0px 0px;}
+#digit{text-align:center; width: 100%; height: 30px;}
+.gameTimer{width: 80%; background: #fff; margin-left: auto; margin-right: auto; height: 30px;}
+.timerBar{width: 100%; background: #FD6A80; height: 100%; border-radius: 20px;}
+.element{animation: timer 300s linear infinite;}
+.gamebox{width: 80%; height: 150px; margin: 10px auto; background:rgb(255, 255, 255); position: relative;}
+.telepathy{position: absolute; top:0; left: 0; width: 100%;}
+.versus1{z-index: 10;}
+.vindex2{z-index: 20;}
+.vindex3{z-index: 30;}
+.vindex4{z-index: 40;}
+
+#timerbox{width: 100%; height: 100px; margin-top: 30px;}
+@keyframes timer {from {width:100%;} to {width:0%}}
+section .chatsend{border-radius: 20px; border: none; background: #eee; text-align: left; width: 100%; height: 40px;}
+section .chatBtn{position: relative; top:-30px; left: 85%; width: 40px; border: none; background: none; text-align: center;}
+section .sendchat{margin-top: 100px;}
+
+/* rightSection */
+.rightHeader{width: 100%; height: 50px;}
+.lebox, .rgbox{line-height: 50px;width: 50%; height: 50px; border-bottom: 1px solid #eee; float: left; text-align: center; font-weight: 900; font-size: 15px;}
+.lebox:hover, .rgbox:hover{background: #FD6A80; color: white;}
+.lebox{border-right: 1px solid #eee;}
+
+#tabMenu{width: 100%; height: 100%;}
+#tabMenu input[type="radio"]{display: none;}
+#tabMenu label{display: inline-block; margin: 0; padding: 15px 25px; text-align: center; 
+    color: #aaa; border: 1px solid transparent; box-sizing: border-box; width: auto; font-size: 14px;font-weight: 900; width: 49%;}
+#tabMenu label:hover{color: #FD6A80; cursor: pointer;}
+#tabMenu input:checked + label{color: #ffffff; border: 1px solid #ddd; background:#FD6A80}
+/* 공지사항은 checked 이므로 처음부터 보이고 갤러리는 숨김 */
+.tabContent { display:none; padding:20px 0 0; border-top:1px solid #ddd;} 
+.tabContent h2{display: none;}
+#notice ul{width: 100%; padding: 0;}
+#notice ul li{float: left; width: 50%;}
+#notice img{width: 100%; border-radius: 20px;}
+#gallery ul{width: 100%; overflow: hidden;}
+#gallery li{list-style:disc; margin-bottom: 30px;}
+
+/* 형제 선택자 '~' 사용, 부모는 tabMenu */
+#tab1:checked ~ #notice, #tab2:checked ~ #gallery{display: block;}
+#tab3:checked ~ #notice, #tab4:checked ~ #gallery{display: block;}
+
+/* footer 영역 */
+footer{border-top:1px solid #ddd; width: 100%;}
+footer .foot_list{list-style: none; margin:50px 0px 50px 30px; height: 100px; width: 100%; box-sizing: border-box;}
+footer .foot_list li{float: left; margin-right: 25px; border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li:last-child{border: none;}
+footer .foot_list li a{color: #000; text-decoration: none; margin-right: 25px; font-size: 0.8em; width: 100%;}
+
+/* 태블릿 기준 */
+@media all and (max-width:992px) and (min-width:768px) {
+#st1{display: block;}
+#st2{display: none;}
+section{width: 100%; height: 2300px;}
+section .maindiv{ border-right:none;}
+section .maindiv:first-child{border-right: 2px solid #ddd;}
+section .right{margin-top: 100px;}
+header .matAlarm{display: none;}
+header .login{width: 70%;}
+#notice ul{width: 100%; padding: 0;}
+#notice ul li{float: left; width: 33%;}
+#notice img{width: 100%; border-radius: 20px;}
+}
+
+/* 모바일 기준 */
+@media all and (max-width:767px) {
+#st1{display: none;}
+#st2{display: block;}
+.logo{float: none; width: 100%; height: 80px;box-sizing: border-box; position: absolute; background: url(../img/logo.png) no-repeat center;}
+.logo a{font-size: 0px;}
+header .login{width: 30%; position: relative;}
+header .matAlarm{display: none;} 
+.login ul li:nth-child(2), .login ul li:nth-child(3), .login ul li:nth-child(4){display: none;}
+
+/* M_footer 영역 */
+#st1{width: 100%; height: 3700px;}
+#st2{width: 100%; height: 1400px;}
+section .maindiv{ border: none; padding: 20px;}
+section .right{ border-top: #000 1px solid; padding: 20px; border-right: none;}
+section .maindiv:first-child{border: none;}
+#notice ul{width: 100%; padding: 0;}
+#notice ul li{float: left; width: 50%;}
+#notice img{width: 100%; border-radius: 20px;}
+footer{border-top:1px solid #ddd; width: 100%; height: 80px;}
+footer .foot_list{list-style: none; margin:50px 20px; height: 100px; width: 100%; box-sizing: border-box; padding: 0;}
+footer .foot_list li{float: left; margin-right: 10px; border: none;}
+footer .foot_list li{border-right:1px solid rgba(0, 0, 0, 0.2);}
+footer .foot_list li a{margin-right: 10px;}
+#siteMap{ width: 100%; height: 500px; position: absolute; z-index: 9999;
+    background: #fff; top: 78px; right: 0%; display: none; border: #FD6A80 2px solid;}
+}
+
+#siteMap{ width: 400px; height: 500px; position: absolute; z-index: 9999;
+    background: #fff; top: 78px; right: 0%; display: none; border: #FD6A80 2px solid;}

@@ -1,0 +1,84 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+    html{height: 100%; width: 100%;}    
+    *{margin: 0; padding: 0; font-family: 'Poppins', sans-serif;}
+    .clear{clear: both;}
+
+    #maincontainer{position: relative;}
+    
+    /* header 영역 */
+    header{width: 100%; height: 80px; background: #FD6A80;}
+
+    /* 로고부분 */
+    .logo{float: left; width: 150px; height: 100%; box-sizing: border-box; background: url(../img/logo.png) no-repeat center;} 
+    .logo a{ font-size: 0px;}
+
+    /* 매칭알림 */
+    .matAlarm {height: 100%; width: 50%; overflow: hidden; position: relative; float: left;}
+    .matAlarm div {display: block; width: 200%; height: 100%; line-height: 80px; position: absolute; 
+        overflow: hidden; animation: matAlarm 10s linear infinite;}
+    .matAlarm span {float: left; width: 50%; color: white}
+    @keyframes matAlarm {0% { left: 0; } 100% { left: -100%; }}
+
+    /* 우측메뉴아이콘 */
+    .login{width: 350px; height: 100%; float: right; overflow: hidden; color:white; font-size: 0px; float:right}
+    .login ul a{text-decoration: none;}
+    .login .mypage{background: url("../img/whitecircle.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+    .login .nickname{overflow: hidden; color:white; font-size: 16px; text-decoration: none; margin-left: -35px;}
+    .login .mailBtn{background: url("../img/mail.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px;}
+    .login .setting{background: url("../img/setting.PNG") no-repeat; width: 58px; height: 58px; margin-top: 11px; margin-right: -50px;}
+    .login ul li{list-style: none; float: left; box-sizing: border-box; margin: 0px 20px; line-height: 80px;}
+
+    /* section 영역 */
+    section{width: 100%;}
+    .col{display: flex;  justify-content: center; text-align: center; height: calc(100vh - 160px);}
+    .col1{flex: 1;}
+    .col2{flex: 0 0 600px;}
+    .col3{flex: 1;}
+
+    /* 사진첩 */
+
+
+    /* 슬라이드 */
+    .swiper {width: 100%; height: 100%;}
+
+      .swiper-slide {text-align: center; font-size: 18px;
+        /* Center slide text vertically */
+        display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;
+        -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center;
+        justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+
+      .swiper-slide img {display: block; width: 90%; height: 90%; object-fit: cover;
+        -webkit-mask-image: linear-gradient(to top, transparent 10%, black 50%); mask-image: linear-gradient(to top, transparent 10%, black 50%);
+          filter: blur(3px); -webkit-filter: blur(3px); border-radius: 30px;}
+      .swiper-slide figcaption {position: absolute; bottom: 5em; left: 2em; font-size: 150%; color: #333; text-align: left;}
+      .swiper-slide figcaption span{font-size: 70%;}
+ 
+    /* footer 영역 */
+    footer{border-top:1px solid #ddd; width: 100%;}
+    footer .foot_list{list-style: none; margin:10px 0px; height: 50px; width: 100%; box-sizing: border-box; text-align: center;}
+    footer .foot_list li{display: inline-block; margin-right: 25px; border-right:1px solid rgba(0, 0, 0, 0.2);}
+    footer .foot_list li:last-child{border: none;}
+    footer .foot_list li a{color: #000; text-decoration: none; margin-right: 25px; font-size: 0.8em; width: 100%;}
+
+    /* 태블릿 기준 */
+    @media all and (max-width:1350px) {header .matAlarm{display: none;}}
+
+    /* 모바일 기준 */
+    @media all and (max-width:1000px) {header{position: relative;}
+    .logo{width: 100px;}
+    header .matAlarm{display: none;}
+    .login{width: 190px;}
+    .login .mypage{position: absolute; right : 130px;}
+    .login .mailBtn{position: absolute; right : 70px;}
+    .login .setting{position: absolute; right : 60px;}
+    .login .nickname{display: none;}
+    .col1, .col3{display: none;}
+
+    /* M_footer 영역 */
+    footer{border-top:1px solid #ddd; width: 100%;}
+    footer .foot_list{list-style: none; margin:10px 5px; height: 100px; width: 100%; box-sizing: border-box; padding: 0;}
+    footer .foot_list li{float: left; margin-right: 5px; border: none;}
+    footer .foot_list li{border-right:1px solid rgba(0, 0, 0, 0.2);}
+    footer .foot_list li a{margin-right: 10px;}
+
+    }
