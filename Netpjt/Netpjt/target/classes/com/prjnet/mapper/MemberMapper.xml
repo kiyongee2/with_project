@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.prjnet.mapper.MemberMapper">
+	<resultMap type="com.prjnet.domain.MemberVO" id="memberMap">
+		<id property="id" column="id" />
+		<result property="id" column="id" />
+		<result property="pw" column="pw" />
+		<result property="name" column="name" />
+		<result property="age" column="age" />
+		<collection property="authList" resultMap="authMap" />
+	</resultMap>
+	
+	<resultMap type="com.prjnet.domain.AuthVO" id="authMap">
+		<result property="id" column="id" />
+		<result property="auth" column="auth" />
+	</resultMap>
+	
+	<select id="read" resultMap="memberMap">
+		SELECT mem.id, pw, name, age, auth
+		FROM member mem
+			LEFT OUTER JOIN member_auth auth
+			on mem.id = auth.id
+		WHERE mem.id = #{id}
+	</select>
+	
+	<!-- 회원 가입 -->
+	<insert id="insertMember">
+		INSERT INTO member (id, pw, name, age, enabled)
+		VALUES (#{id}, #{pw}, #{name}, #{age}, '1')
+	</insert>
+	
+	<delete id="deleteMember">
+		DELETE FROM member WHERE id = #{id}
+	</delete>
+	
+	<update id="updateMember">
+		UPDATE member
+		SET pw = #{pw}, name = #{name}
+		WHERE id = #{id}
+	</update>
+	
+	<!-- ID중복검사 -->
+	<select id="checkID" resultType="int">
+		SELECT COUNT(*) FROM member
+		WHERE id = #{id}
+	</select>
+</mapper>

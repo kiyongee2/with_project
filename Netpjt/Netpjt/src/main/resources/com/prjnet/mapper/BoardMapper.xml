@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.prjnet.mapper.BoardMapper">
+
+	<!-- 콘텐츠 작성 -->
+	<insert id="insert">
+		INSERT INTO board(bno, title, content, id, image, category)
+		VALUES (seq_b.NEXTVAL, #{title}, #{content}, 'admin1', #{image}, #{category})
+	</insert>
+
+	<!-- 콘텐츠 목록 보기 -->
+	<select id="getBoardList" resultType="com.prjnet.domain.BoardVO">
+		SELECT * FROM (
+			SELECT * FROM board ORDER BY DBMS_RANDOM.RANDOM
+			) WHERE <![CDATA[rownum <= 20]]>
+	</select>
+	
+	<!-- 콘텐츠 상세 보기 -->
+	<select id="getBoard" resultType="com.prjnet.domain.BoardVO">
+		SELECT * FROM board WHERE bno = #{bno}
+	</select>
+	
+	<!-- 콘텐츠 삭제 -->
+	<delete id="delete">
+		DELETE FROM board WHERE bno = #{bno}
+	</delete>
+	
+	<!-- 콘텐츠 수정 -->
+	<update id="">
+		UPDATE board
+		SET title = #{title}, content = #{content}
+		WHERE bno = #{bno}
+	</update>
+	
+	<!-- 콘텐츠 검색 -->
+	<select id="searchedBoardList" resultType="com.prjnet.domain.BoardVO">
+			SELECT * FROM board
+			WHERE content LIKE '%'||#{keyword}||'%'
+			OR title LIKE '%'||#{keyword}||'%'
+			OR category LIKE '%'||#{keyword}||'%'
+			ORDER BY DBMS_RANDOM.RANDOM
+	</select>
+</mapper>
